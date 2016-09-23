@@ -1,5 +1,7 @@
 # Bomberman3D
 
+![alt tag](https://github.com/parigi-n/Bomberman3D/blob/master/media/battlefest_logo.png?raw=true)
+
 School project made at EPITECH at the end of second year.
 
 Authors :
