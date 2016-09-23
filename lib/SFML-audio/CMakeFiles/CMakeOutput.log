@@ -1,0 +1,1853 @@
+Determining if the function XOpenDisplay exists in the /lib64/libX11.so;/lib64/libXext.so passed with the following output:
+Change Dir: /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/make" "cmTC_e9bc9/fast"
+make[1] : on entre dans le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+/bin/make -f CMakeFiles/cmTC_e9bc9.dir/build.make CMakeFiles/cmTC_e9bc9.dir/build
+make[2] : on entre dans le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_e9bc9.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTC_e9bc9.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e9bc9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9bc9.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTC_e9bc9.dir/CheckFunctionExists.c.o  -o cmTC_e9bc9 -rdynamic /lib64/libX11.so /lib64/libXext.so 
+make[2] : on quitte le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+
+
+Determining if the function gethostbyname exists passed with the following output:
+Change Dir: /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/make" "cmTC_1b3f5/fast"
+make[1] : on entre dans le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+/bin/make -f CMakeFiles/cmTC_1b3f5.dir/build.make CMakeFiles/cmTC_1b3f5.dir/build
+make[2] : on entre dans le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_1b3f5.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_1b3f5.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1b3f5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b3f5.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTC_1b3f5.dir/CheckFunctionExists.c.o  -o cmTC_1b3f5 -rdynamic 
+make[2] : on quitte le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+
+
+Determining if the function connect exists passed with the following output:
+Change Dir: /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/make" "cmTC_e2697/fast"
+make[1] : on entre dans le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+/bin/make -f CMakeFiles/cmTC_e2697.dir/build.make CMakeFiles/cmTC_e2697.dir/build
+make[2] : on entre dans le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_e2697.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTC_e2697.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e2697
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2697.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTC_e2697.dir/CheckFunctionExists.c.o  -o cmTC_e2697 -rdynamic 
+make[2] : on quitte le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+
+
+Determining if the function remove exists passed with the following output:
+Change Dir: /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/make" "cmTC_387bf/fast"
+make[1] : on entre dans le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+/bin/make -f CMakeFiles/cmTC_387bf.dir/build.make CMakeFiles/cmTC_387bf.dir/build
+make[2] : on entre dans le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_387bf.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTC_387bf.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_387bf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_387bf.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTC_387bf.dir/CheckFunctionExists.c.o  -o cmTC_387bf -rdynamic 
+make[2] : on quitte le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+
+
+Determining if the function XOpenDisplay exists in the /lib64/libX11.so;/lib64/libXext.so passed with the following output:
+Change Dir: /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/make" "cmTC_e9381/fast"
+make[1] : on entre dans le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+/bin/make -f CMakeFiles/cmTC_e9381.dir/build.make CMakeFiles/cmTC_e9381.dir/build
+make[2] : on entre dans le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_e9381.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTC_e9381.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e9381
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9381.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTC_e9381.dir/CheckFunctionExists.c.o  -o cmTC_e9381 -rdynamic /lib64/libX11.so /lib64/libXext.so 
+make[2] : on quitte le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+
+
+Determining if the function gethostbyname exists passed with the following output:
+Change Dir: /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/make" "cmTC_79baf/fast"
+make[1] : on entre dans le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+/bin/make -f CMakeFiles/cmTC_79baf.dir/build.make CMakeFiles/cmTC_79baf.dir/build
+make[2] : on entre dans le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_79baf.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_79baf.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_79baf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_79baf.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTC_79baf.dir/CheckFunctionExists.c.o  -o cmTC_79baf -rdynamic 
+make[2] : on quitte le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+
+
+Determining if the function connect exists passed with the following output:
+Change Dir: /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/make" "cmTC_474fa/fast"
+make[1] : on entre dans le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+/bin/make -f CMakeFiles/cmTC_474fa.dir/build.make CMakeFiles/cmTC_474fa.dir/build
+make[2] : on entre dans le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_474fa.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTC_474fa.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_474fa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_474fa.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTC_474fa.dir/CheckFunctionExists.c.o  -o cmTC_474fa -rdynamic 
+make[2] : on quitte le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+
+
+Determining if the function remove exists passed with the following output:
+Change Dir: /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/make" "cmTC_96409/fast"
+make[1] : on entre dans le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+/bin/make -f CMakeFiles/cmTC_96409.dir/build.make CMakeFiles/cmTC_96409.dir/build
+make[2] : on entre dans le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_96409.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTC_96409.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_96409
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_96409.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTC_96409.dir/CheckFunctionExists.c.o  -o cmTC_96409 -rdynamic 
+make[2] : on quitte le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+
+
+Determining if the function shmat exists passed with the following output:
+Change Dir: /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/make" "cmTC_46dc0/fast"
+make[1] : on entre dans le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+/bin/make -f CMakeFiles/cmTC_46dc0.dir/build.make CMakeFiles/cmTC_46dc0.dir/build
+make[2] : on entre dans le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_46dc0.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTC_46dc0.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_46dc0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46dc0.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTC_46dc0.dir/CheckFunctionExists.c.o  -o cmTC_46dc0 -rdynamic 
+make[2] : on quitte le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+
+
+Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
+Change Dir: /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/make" "cmTC_f4968/fast"
+make[1] : on entre dans le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+/bin/make -f CMakeFiles/cmTC_f4968.dir/build.make CMakeFiles/cmTC_f4968.dir/build
+make[2] : on entre dans le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_f4968.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTC_f4968.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f4968
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f4968.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    CMakeFiles/cmTC_f4968.dir/CheckFunctionExists.c.o  -o cmTC_f4968 -rdynamic -lICE 
+make[2] : on quitte le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+
+
+Determining if the function XOpenDisplay exists in the /lib64/libX11.so;/lib64/libXext.so passed with the following output:
+Change Dir: /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/make" "cmTC_6fb7b/fast"
+make[1] : on entre dans le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+/bin/make -f CMakeFiles/cmTC_6fb7b.dir/build.make CMakeFiles/cmTC_6fb7b.dir/build
+make[2] : on entre dans le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_6fb7b.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTC_6fb7b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6fb7b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6fb7b.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTC_6fb7b.dir/CheckFunctionExists.c.o  -o cmTC_6fb7b -rdynamic /lib64/libX11.so /lib64/libXext.so 
+make[2] : on quitte le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+
+
+Determining if the function gethostbyname exists passed with the following output:
+Change Dir: /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/make" "cmTC_f958a/fast"
+make[1] : on entre dans le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+/bin/make -f CMakeFiles/cmTC_f958a.dir/build.make CMakeFiles/cmTC_f958a.dir/build
+make[2] : on entre dans le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_f958a.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_f958a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f958a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f958a.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTC_f958a.dir/CheckFunctionExists.c.o  -o cmTC_f958a -rdynamic 
+make[2] : on quitte le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+
+
+Determining if the function connect exists passed with the following output:
+Change Dir: /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/make" "cmTC_f38eb/fast"
+make[1] : on entre dans le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+/bin/make -f CMakeFiles/cmTC_f38eb.dir/build.make CMakeFiles/cmTC_f38eb.dir/build
+make[2] : on entre dans le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_f38eb.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTC_f38eb.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f38eb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f38eb.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTC_f38eb.dir/CheckFunctionExists.c.o  -o cmTC_f38eb -rdynamic 
+make[2] : on quitte le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+
+
+Determining if the function remove exists passed with the following output:
+Change Dir: /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/make" "cmTC_eae66/fast"
+make[1] : on entre dans le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+/bin/make -f CMakeFiles/cmTC_eae66.dir/build.make CMakeFiles/cmTC_eae66.dir/build
+make[2] : on entre dans le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_eae66.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTC_eae66.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_eae66
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eae66.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTC_eae66.dir/CheckFunctionExists.c.o  -o cmTC_eae66 -rdynamic 
+make[2] : on quitte le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+
+
+Determining if the function shmat exists passed with the following output:
+Change Dir: /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/make" "cmTC_f9021/fast"
+make[1] : on entre dans le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+/bin/make -f CMakeFiles/cmTC_f9021.dir/build.make CMakeFiles/cmTC_f9021.dir/build
+make[2] : on entre dans le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_f9021.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTC_f9021.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f9021
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9021.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTC_f9021.dir/CheckFunctionExists.c.o  -o cmTC_f9021 -rdynamic 
+make[2] : on quitte le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+
+
+Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
+Change Dir: /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/make" "cmTC_b48ad/fast"
+make[1] : on entre dans le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+/bin/make -f CMakeFiles/cmTC_b48ad.dir/build.make CMakeFiles/cmTC_b48ad.dir/build
+make[2] : on entre dans le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_b48ad.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTC_b48ad.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b48ad
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b48ad.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    CMakeFiles/cmTC_b48ad.dir/CheckFunctionExists.c.o  -o cmTC_b48ad -rdynamic -lICE 
+make[2] : on quitte le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+
+
+Determining if the function XOpenDisplay exists in the /lib64/libX11.so;/lib64/libXext.so passed with the following output:
+Change Dir: /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/make" "cmTC_c6f4c/fast"
+make[1] : on entre dans le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+/bin/make -f CMakeFiles/cmTC_c6f4c.dir/build.make CMakeFiles/cmTC_c6f4c.dir/build
+make[2] : on entre dans le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_c6f4c.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTC_c6f4c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c6f4c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6f4c.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTC_c6f4c.dir/CheckFunctionExists.c.o  -o cmTC_c6f4c -rdynamic /lib64/libX11.so /lib64/libXext.so 
+make[2] : on quitte le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+
+
+Determining if the function gethostbyname exists passed with the following output:
+Change Dir: /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/make" "cmTC_5efeb/fast"
+make[1] : on entre dans le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+/bin/make -f CMakeFiles/cmTC_5efeb.dir/build.make CMakeFiles/cmTC_5efeb.dir/build
+make[2] : on entre dans le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_5efeb.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_5efeb.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5efeb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5efeb.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTC_5efeb.dir/CheckFunctionExists.c.o  -o cmTC_5efeb -rdynamic 
+make[2] : on quitte le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+
+
+Determining if the function connect exists passed with the following output:
+Change Dir: /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/make" "cmTC_046c4/fast"
+make[1] : on entre dans le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+/bin/make -f CMakeFiles/cmTC_046c4.dir/build.make CMakeFiles/cmTC_046c4.dir/build
+make[2] : on entre dans le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_046c4.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTC_046c4.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_046c4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_046c4.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTC_046c4.dir/CheckFunctionExists.c.o  -o cmTC_046c4 -rdynamic 
+make[2] : on quitte le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+
+
+Determining if the function remove exists passed with the following output:
+Change Dir: /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/make" "cmTC_de312/fast"
+make[1] : on entre dans le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+/bin/make -f CMakeFiles/cmTC_de312.dir/build.make CMakeFiles/cmTC_de312.dir/build
+make[2] : on entre dans le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_de312.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTC_de312.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_de312
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de312.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTC_de312.dir/CheckFunctionExists.c.o  -o cmTC_de312 -rdynamic 
+make[2] : on quitte le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+
+
+Determining if the function shmat exists passed with the following output:
+Change Dir: /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/make" "cmTC_44481/fast"
+make[1] : on entre dans le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+/bin/make -f CMakeFiles/cmTC_44481.dir/build.make CMakeFiles/cmTC_44481.dir/build
+make[2] : on entre dans le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_44481.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTC_44481.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_44481
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44481.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTC_44481.dir/CheckFunctionExists.c.o  -o cmTC_44481 -rdynamic 
+make[2] : on quitte le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+
+
+Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
+Change Dir: /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/make" "cmTC_99575/fast"
+make[1] : on entre dans le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+/bin/make -f CMakeFiles/cmTC_99575.dir/build.make CMakeFiles/cmTC_99575.dir/build
+make[2] : on entre dans le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_99575.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTC_99575.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_99575
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99575.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    CMakeFiles/cmTC_99575.dir/CheckFunctionExists.c.o  -o cmTC_99575 -rdynamic -lICE 
+make[2] : on quitte le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+
+
+Determining if the function XOpenDisplay exists in the /lib64/libX11.so;/lib64/libXext.so passed with the following output:
+Change Dir: /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/make" "cmTC_f07e0/fast"
+make[1] : on entre dans le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+/bin/make -f CMakeFiles/cmTC_f07e0.dir/build.make CMakeFiles/cmTC_f07e0.dir/build
+make[2] : on entre dans le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_f07e0.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTC_f07e0.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f07e0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f07e0.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTC_f07e0.dir/CheckFunctionExists.c.o  -o cmTC_f07e0 -rdynamic /lib64/libX11.so /lib64/libXext.so 
+make[2] : on quitte le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+
+
+Determining if the function gethostbyname exists passed with the following output:
+Change Dir: /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/make" "cmTC_a4e82/fast"
+make[1] : on entre dans le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+/bin/make -f CMakeFiles/cmTC_a4e82.dir/build.make CMakeFiles/cmTC_a4e82.dir/build
+make[2] : on entre dans le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_a4e82.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_a4e82.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a4e82
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a4e82.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTC_a4e82.dir/CheckFunctionExists.c.o  -o cmTC_a4e82 -rdynamic 
+make[2] : on quitte le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+
+
+Determining if the function connect exists passed with the following output:
+Change Dir: /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/make" "cmTC_a318e/fast"
+make[1] : on entre dans le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+/bin/make -f CMakeFiles/cmTC_a318e.dir/build.make CMakeFiles/cmTC_a318e.dir/build
+make[2] : on entre dans le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_a318e.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTC_a318e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a318e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a318e.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTC_a318e.dir/CheckFunctionExists.c.o  -o cmTC_a318e -rdynamic 
+make[2] : on quitte le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+
+
+Determining if the function remove exists passed with the following output:
+Change Dir: /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/make" "cmTC_d03af/fast"
+make[1] : on entre dans le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+/bin/make -f CMakeFiles/cmTC_d03af.dir/build.make CMakeFiles/cmTC_d03af.dir/build
+make[2] : on entre dans le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_d03af.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTC_d03af.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d03af
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d03af.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTC_d03af.dir/CheckFunctionExists.c.o  -o cmTC_d03af -rdynamic 
+make[2] : on quitte le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+
+
+Determining if the function shmat exists passed with the following output:
+Change Dir: /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/make" "cmTC_5f490/fast"
+make[1] : on entre dans le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+/bin/make -f CMakeFiles/cmTC_5f490.dir/build.make CMakeFiles/cmTC_5f490.dir/build
+make[2] : on entre dans le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_5f490.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTC_5f490.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5f490
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f490.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTC_5f490.dir/CheckFunctionExists.c.o  -o cmTC_5f490 -rdynamic 
+make[2] : on quitte le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+
+
+Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
+Change Dir: /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/make" "cmTC_aec7d/fast"
+make[1] : on entre dans le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+/bin/make -f CMakeFiles/cmTC_aec7d.dir/build.make CMakeFiles/cmTC_aec7d.dir/build
+make[2] : on entre dans le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_aec7d.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTC_aec7d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_aec7d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aec7d.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    CMakeFiles/cmTC_aec7d.dir/CheckFunctionExists.c.o  -o cmTC_aec7d -rdynamic -lICE 
+make[2] : on quitte le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+
+
+Determining if the function XOpenDisplay exists in the /lib64/libX11.so;/lib64/libXext.so passed with the following output:
+Change Dir: /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/make" "cmTC_0e736/fast"
+make[1] : on entre dans le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+/bin/make -f CMakeFiles/cmTC_0e736.dir/build.make CMakeFiles/cmTC_0e736.dir/build
+make[2] : on entre dans le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_0e736.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTC_0e736.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0e736
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e736.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTC_0e736.dir/CheckFunctionExists.c.o  -o cmTC_0e736 -rdynamic /lib64/libX11.so /lib64/libXext.so 
+make[2] : on quitte le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+
+
+Determining if the function gethostbyname exists passed with the following output:
+Change Dir: /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/make" "cmTC_d2a46/fast"
+make[1] : on entre dans le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+/bin/make -f CMakeFiles/cmTC_d2a46.dir/build.make CMakeFiles/cmTC_d2a46.dir/build
+make[2] : on entre dans le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_d2a46.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_d2a46.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d2a46
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d2a46.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTC_d2a46.dir/CheckFunctionExists.c.o  -o cmTC_d2a46 -rdynamic 
+make[2] : on quitte le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+
+
+Determining if the function connect exists passed with the following output:
+Change Dir: /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/make" "cmTC_3b63b/fast"
+make[1] : on entre dans le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+/bin/make -f CMakeFiles/cmTC_3b63b.dir/build.make CMakeFiles/cmTC_3b63b.dir/build
+make[2] : on entre dans le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_3b63b.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTC_3b63b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3b63b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b63b.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTC_3b63b.dir/CheckFunctionExists.c.o  -o cmTC_3b63b -rdynamic 
+make[2] : on quitte le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+
+
+Determining if the function remove exists passed with the following output:
+Change Dir: /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/make" "cmTC_453ef/fast"
+make[1] : on entre dans le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+/bin/make -f CMakeFiles/cmTC_453ef.dir/build.make CMakeFiles/cmTC_453ef.dir/build
+make[2] : on entre dans le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_453ef.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTC_453ef.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_453ef
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_453ef.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTC_453ef.dir/CheckFunctionExists.c.o  -o cmTC_453ef -rdynamic 
+make[2] : on quitte le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+
+
+Determining if the function shmat exists passed with the following output:
+Change Dir: /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/make" "cmTC_64b20/fast"
+make[1] : on entre dans le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+/bin/make -f CMakeFiles/cmTC_64b20.dir/build.make CMakeFiles/cmTC_64b20.dir/build
+make[2] : on entre dans le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_64b20.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTC_64b20.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_64b20
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64b20.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTC_64b20.dir/CheckFunctionExists.c.o  -o cmTC_64b20 -rdynamic 
+make[2] : on quitte le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+
+
+Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
+Change Dir: /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/make" "cmTC_38601/fast"
+make[1] : on entre dans le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+/bin/make -f CMakeFiles/cmTC_38601.dir/build.make CMakeFiles/cmTC_38601.dir/build
+make[2] : on entre dans le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_38601.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTC_38601.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_38601
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_38601.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    CMakeFiles/cmTC_38601.dir/CheckFunctionExists.c.o  -o cmTC_38601 -rdynamic -lICE 
+make[2] : on quitte le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/parigi_n/tmp/new_back_indie/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+
+
+Determining if the function XOpenDisplay exists in the /lib64/libX11.so;/lib64/libXext.so passed with the following output:
+Change Dir: /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/make" "cmTC_2b9d4/fast"
+make[1] : on entre dans le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+/bin/make -f CMakeFiles/cmTC_2b9d4.dir/build.make CMakeFiles/cmTC_2b9d4.dir/build
+make[2] : on entre dans le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_2b9d4.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTC_2b9d4.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2b9d4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b9d4.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTC_2b9d4.dir/CheckFunctionExists.c.o  -o cmTC_2b9d4 -rdynamic /lib64/libX11.so /lib64/libXext.so 
+make[2] : on quitte le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+
+
+Determining if the function gethostbyname exists passed with the following output:
+Change Dir: /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/make" "cmTC_f2ac6/fast"
+make[1] : on entre dans le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+/bin/make -f CMakeFiles/cmTC_f2ac6.dir/build.make CMakeFiles/cmTC_f2ac6.dir/build
+make[2] : on entre dans le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_f2ac6.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_f2ac6.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f2ac6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2ac6.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTC_f2ac6.dir/CheckFunctionExists.c.o  -o cmTC_f2ac6 -rdynamic 
+make[2] : on quitte le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+
+
+Determining if the function connect exists passed with the following output:
+Change Dir: /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/make" "cmTC_36aad/fast"
+make[1] : on entre dans le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+/bin/make -f CMakeFiles/cmTC_36aad.dir/build.make CMakeFiles/cmTC_36aad.dir/build
+make[2] : on entre dans le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_36aad.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTC_36aad.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_36aad
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36aad.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTC_36aad.dir/CheckFunctionExists.c.o  -o cmTC_36aad -rdynamic 
+make[2] : on quitte le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+
+
+Determining if the function remove exists passed with the following output:
+Change Dir: /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/make" "cmTC_5ef76/fast"
+make[1] : on entre dans le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+/bin/make -f CMakeFiles/cmTC_5ef76.dir/build.make CMakeFiles/cmTC_5ef76.dir/build
+make[2] : on entre dans le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_5ef76.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTC_5ef76.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5ef76
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5ef76.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTC_5ef76.dir/CheckFunctionExists.c.o  -o cmTC_5ef76 -rdynamic 
+make[2] : on quitte le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+
+
+Determining if the function shmat exists passed with the following output:
+Change Dir: /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/make" "cmTC_57579/fast"
+make[1] : on entre dans le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+/bin/make -f CMakeFiles/cmTC_57579.dir/build.make CMakeFiles/cmTC_57579.dir/build
+make[2] : on entre dans le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_57579.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTC_57579.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_57579
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_57579.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTC_57579.dir/CheckFunctionExists.c.o  -o cmTC_57579 -rdynamic 
+make[2] : on quitte le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+
+
+Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
+Change Dir: /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/make" "cmTC_9289d/fast"
+make[1] : on entre dans le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+/bin/make -f CMakeFiles/cmTC_9289d.dir/build.make CMakeFiles/cmTC_9289d.dir/build
+make[2] : on entre dans le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_9289d.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTC_9289d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9289d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9289d.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    CMakeFiles/cmTC_9289d.dir/CheckFunctionExists.c.o  -o cmTC_9289d -rdynamic -lICE 
+make[2] : on quitte le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+
+
+Determining if the function XOpenDisplay exists in the /lib64/libX11.so;/lib64/libXext.so passed with the following output:
+Change Dir: /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/make" "cmTC_d09ed/fast"
+make[1] : on entre dans le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+/bin/make -f CMakeFiles/cmTC_d09ed.dir/build.make CMakeFiles/cmTC_d09ed.dir/build
+make[2] : on entre dans le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_d09ed.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTC_d09ed.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d09ed
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d09ed.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTC_d09ed.dir/CheckFunctionExists.c.o  -o cmTC_d09ed -rdynamic /lib64/libX11.so /lib64/libXext.so 
+make[2] : on quitte le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+
+
+Determining if the function gethostbyname exists passed with the following output:
+Change Dir: /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/make" "cmTC_f2069/fast"
+make[1] : on entre dans le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+/bin/make -f CMakeFiles/cmTC_f2069.dir/build.make CMakeFiles/cmTC_f2069.dir/build
+make[2] : on entre dans le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_f2069.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_f2069.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f2069
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2069.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTC_f2069.dir/CheckFunctionExists.c.o  -o cmTC_f2069 -rdynamic 
+make[2] : on quitte le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+
+
+Determining if the function connect exists passed with the following output:
+Change Dir: /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/make" "cmTC_e6663/fast"
+make[1] : on entre dans le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+/bin/make -f CMakeFiles/cmTC_e6663.dir/build.make CMakeFiles/cmTC_e6663.dir/build
+make[2] : on entre dans le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_e6663.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTC_e6663.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e6663
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6663.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTC_e6663.dir/CheckFunctionExists.c.o  -o cmTC_e6663 -rdynamic 
+make[2] : on quitte le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+
+
+Determining if the function remove exists passed with the following output:
+Change Dir: /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/make" "cmTC_894ce/fast"
+make[1] : on entre dans le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+/bin/make -f CMakeFiles/cmTC_894ce.dir/build.make CMakeFiles/cmTC_894ce.dir/build
+make[2] : on entre dans le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_894ce.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTC_894ce.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_894ce
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_894ce.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTC_894ce.dir/CheckFunctionExists.c.o  -o cmTC_894ce -rdynamic 
+make[2] : on quitte le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+
+
+Determining if the function shmat exists passed with the following output:
+Change Dir: /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/make" "cmTC_0f4e9/fast"
+make[1] : on entre dans le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+/bin/make -f CMakeFiles/cmTC_0f4e9.dir/build.make CMakeFiles/cmTC_0f4e9.dir/build
+make[2] : on entre dans le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_0f4e9.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTC_0f4e9.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0f4e9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f4e9.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTC_0f4e9.dir/CheckFunctionExists.c.o  -o cmTC_0f4e9 -rdynamic 
+make[2] : on quitte le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+
+
+Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
+Change Dir: /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/make" "cmTC_d79c5/fast"
+make[1] : on entre dans le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+/bin/make -f CMakeFiles/cmTC_d79c5.dir/build.make CMakeFiles/cmTC_d79c5.dir/build
+make[2] : on entre dans le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_d79c5.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTC_d79c5.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d79c5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d79c5.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    CMakeFiles/cmTC_d79c5.dir/CheckFunctionExists.c.o  -o cmTC_d79c5 -rdynamic -lICE 
+make[2] : on quitte le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+
+
+The system is: Linux - 3.16.7-35-desktop - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/parigi_n/compil/cpp_indie_studio/lib/SFML-audio/CMakeFiles/3.0.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/parigi_n/compil/cpp_indie_studio/lib/SFML-audio/CMakeFiles/3.0.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/parigi_n/compil/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTryCompileExec4160194700/fast"
+gmake[1]: Entering directory '/home/parigi_n/compil/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4160194700.dir/build.make CMakeFiles/cmTryCompileExec4160194700.dir/build
+gmake[2]: Entering directory '/home/parigi_n/compil/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/parigi_n/compil/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4160194700.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4160194700.dir/testCCompiler.c.o   -c /home/parigi_n/compil/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec4160194700
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4160194700.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec4160194700.dir/testCCompiler.c.o  -o cmTryCompileExec4160194700 -rdynamic 
+gmake[2]: Leaving directory '/home/parigi_n/compil/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/parigi_n/compil/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/parigi_n/compil/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTryCompileExec1915143379/fast"
+gmake[1]: Entering directory '/home/parigi_n/compil/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1915143379.dir/build.make CMakeFiles/cmTryCompileExec1915143379.dir/build
+gmake[2]: Entering directory '/home/parigi_n/compil/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/parigi_n/compil/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1915143379.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1915143379.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec1915143379
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1915143379.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTryCompileExec1915143379.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1915143379 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib64/gcc/x86_64-suse-linux/4.8/lto-wrapper
+Target: x86_64-suse-linux
+Configured with: ../configure --prefix=/usr --infodir=/usr/share/info --mandir=/usr/share/man --libdir=/usr/lib64 --libexecdir=/usr/lib64 --enable-languages=c,c++,objc,fortran,obj-c++,java,ada --enable-checking=release --with-gxx-include-dir=/usr/include/c++/4.8 --enable-ssp --disable-libssp --disable-plugin --with-bugurl=http://bugs.opensuse.org/ --with-pkgversion='SUSE Linux' --disable-libgcj --disable-libmudflap --with-slibdir=/lib64 --with-system-zlib --enable-__cxa_atexit --enable-libstdcxx-allocator=new --disable-libstdcxx-pch --enable-version-specific-runtime-libs --enable-linker-build-id --enable-linux-futex --program-suffix=-4.8 --without-system-libunwind --with-arch-32=i586 --with-tune=generic --build=x86_64-suse-linux --host=x86_64-suse-linux
+Thread model: posix
+gcc version 4.8.3 20140627 [gcc-4_8-branch revision 212064] (SUSE Linux) 
+COMPILER_PATH=/usr/lib64/gcc/x86_64-suse-linux/4.8/:/usr/lib64/gcc/x86_64-suse-linux/4.8/:/usr/lib64/gcc/x86_64-suse-linux/:/usr/lib64/gcc/x86_64-suse-linux/4.8/:/usr/lib64/gcc/x86_64-suse-linux/:/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/bin/
+LIBRARY_PATH=/usr/lib64/gcc/x86_64-suse-linux/4.8/:/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/lib/:/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1915143379' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib64/gcc/x86_64-suse-linux/4.8/collect2 --build-id --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec1915143379 /usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-suse-linux/4.8/crtbegin.o -L/usr/lib64/gcc/x86_64-suse-linux/4.8 -L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/lib -L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../.. CMakeFiles/cmTryCompileExec1915143379.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib64/gcc/x86_64-suse-linux/4.8/crtend.o /usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crtn.o
+gmake[2]: Leaving directory '/home/parigi_n/compil/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/parigi_n/compil/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/parigi_n/compil/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTryCompileExec1915143379/fast"]
+  ignore line: [gmake[1]: Entering directory '/home/parigi_n/compil/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1915143379.dir/build.make CMakeFiles/cmTryCompileExec1915143379.dir/build]
+  ignore line: [gmake[2]: Entering directory '/home/parigi_n/compil/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/parigi_n/compil/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec1915143379.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1915143379.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec1915143379]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1915143379.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTryCompileExec1915143379.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1915143379 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib64/gcc/x86_64-suse-linux/4.8/lto-wrapper]
+  ignore line: [Target: x86_64-suse-linux]
+  ignore line: [Configured with: ../configure --prefix=/usr --infodir=/usr/share/info --mandir=/usr/share/man --libdir=/usr/lib64 --libexecdir=/usr/lib64 --enable-languages=c,c++,objc,fortran,obj-c++,java,ada --enable-checking=release --with-gxx-include-dir=/usr/include/c++/4.8 --enable-ssp --disable-libssp --disable-plugin --with-bugurl=http://bugs.opensuse.org/ --with-pkgversion='SUSE Linux' --disable-libgcj --disable-libmudflap --with-slibdir=/lib64 --with-system-zlib --enable-__cxa_atexit --enable-libstdcxx-allocator=new --disable-libstdcxx-pch --enable-version-specific-runtime-libs --enable-linker-build-id --enable-linux-futex --program-suffix=-4.8 --without-system-libunwind --with-arch-32=i586 --with-tune=generic --build=x86_64-suse-linux --host=x86_64-suse-linux]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.3 20140627 [gcc-4_8-branch revision 212064] (SUSE Linux) ]
+  ignore line: [COMPILER_PATH=/usr/lib64/gcc/x86_64-suse-linux/4.8/:/usr/lib64/gcc/x86_64-suse-linux/4.8/:/usr/lib64/gcc/x86_64-suse-linux/:/usr/lib64/gcc/x86_64-suse-linux/4.8/:/usr/lib64/gcc/x86_64-suse-linux/:/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/bin/]
+  ignore line: [LIBRARY_PATH=/usr/lib64/gcc/x86_64-suse-linux/4.8/:/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/lib/:/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1915143379' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib64/gcc/x86_64-suse-linux/4.8/collect2 --build-id --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec1915143379 /usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-suse-linux/4.8/crtbegin.o -L/usr/lib64/gcc/x86_64-suse-linux/4.8 -L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/lib -L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../.. CMakeFiles/cmTryCompileExec1915143379.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib64/gcc/x86_64-suse-linux/4.8/crtend.o /usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crtn.o]
+    arg [/usr/lib64/gcc/x86_64-suse-linux/4.8/collect2] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec1915143379] ==> ignore
+    arg [/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crt1.o] ==> ignore
+    arg [/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crti.o] ==> ignore
+    arg [/usr/lib64/gcc/x86_64-suse-linux/4.8/crtbegin.o] ==> ignore
+    arg [-L/usr/lib64/gcc/x86_64-suse-linux/4.8] ==> dir [/usr/lib64/gcc/x86_64-suse-linux/4.8]
+    arg [-L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64] ==> dir [/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/lib] ==> dir [/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/lib]
+    arg [-L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../..] ==> dir [/usr/lib64/gcc/x86_64-suse-linux/4.8/../../..]
+    arg [CMakeFiles/cmTryCompileExec1915143379.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib64/gcc/x86_64-suse-linux/4.8/crtend.o] ==> ignore
+    arg [/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib64/gcc/x86_64-suse-linux/4.8] ==> [/usr/lib64/gcc/x86_64-suse-linux/4.8]
+  collapse library dir [/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64] ==> [/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/lib] ==> [/usr/x86_64-suse-linux/lib]
+  collapse library dir [/usr/lib64/gcc/x86_64-suse-linux/4.8/../../..] ==> [/usr/lib64]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib64/gcc/x86_64-suse-linux/4.8;/usr/lib64;/lib64;/usr/x86_64-suse-linux/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/parigi_n/compil/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTryCompileExec664649406/fast"
+gmake[1]: Entering directory '/home/parigi_n/compil/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec664649406.dir/build.make CMakeFiles/cmTryCompileExec664649406.dir/build
+gmake[2]: Entering directory '/home/parigi_n/compil/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/parigi_n/compil/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec664649406.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec664649406.dir/testCXXCompiler.cxx.o -c /home/parigi_n/compil/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec664649406
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec664649406.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec664649406.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec664649406 -rdynamic 
+gmake[2]: Leaving directory '/home/parigi_n/compil/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/parigi_n/compil/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/parigi_n/compil/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTryCompileExec1294446295/fast"
+gmake[1]: Entering directory '/home/parigi_n/compil/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1294446295.dir/build.make CMakeFiles/cmTryCompileExec1294446295.dir/build
+gmake[2]: Entering directory '/home/parigi_n/compil/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/parigi_n/compil/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1294446295.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec1294446295.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec1294446295
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1294446295.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTryCompileExec1294446295.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec1294446295 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib64/gcc/x86_64-suse-linux/4.8/lto-wrapper
+Target: x86_64-suse-linux
+Configured with: ../configure --prefix=/usr --infodir=/usr/share/info --mandir=/usr/share/man --libdir=/usr/lib64 --libexecdir=/usr/lib64 --enable-languages=c,c++,objc,fortran,obj-c++,java,ada --enable-checking=release --with-gxx-include-dir=/usr/include/c++/4.8 --enable-ssp --disable-libssp --disable-plugin --with-bugurl=http://bugs.opensuse.org/ --with-pkgversion='SUSE Linux' --disable-libgcj --disable-libmudflap --with-slibdir=/lib64 --with-system-zlib --enable-__cxa_atexit --enable-libstdcxx-allocator=new --disable-libstdcxx-pch --enable-version-specific-runtime-libs --enable-linker-build-id --enable-linux-futex --program-suffix=-4.8 --without-system-libunwind --with-arch-32=i586 --with-tune=generic --build=x86_64-suse-linux --host=x86_64-suse-linux
+Thread model: posix
+gcc version 4.8.3 20140627 [gcc-4_8-branch revision 212064] (SUSE Linux) 
+COMPILER_PATH=/usr/lib64/gcc/x86_64-suse-linux/4.8/:/usr/lib64/gcc/x86_64-suse-linux/4.8/:/usr/lib64/gcc/x86_64-suse-linux/:/usr/lib64/gcc/x86_64-suse-linux/4.8/:/usr/lib64/gcc/x86_64-suse-linux/:/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/bin/
+LIBRARY_PATH=/usr/lib64/gcc/x86_64-suse-linux/4.8/:/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/lib/:/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1294446295' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib64/gcc/x86_64-suse-linux/4.8/collect2 --build-id --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec1294446295 /usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-suse-linux/4.8/crtbegin.o -L/usr/lib64/gcc/x86_64-suse-linux/4.8 -L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/lib -L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../.. CMakeFiles/cmTryCompileExec1294446295.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib64/gcc/x86_64-suse-linux/4.8/crtend.o /usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crtn.o
+gmake[2]: Leaving directory '/home/parigi_n/compil/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/parigi_n/compil/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/parigi_n/compil/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTryCompileExec1294446295/fast"]
+  ignore line: [gmake[1]: Entering directory '/home/parigi_n/compil/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1294446295.dir/build.make CMakeFiles/cmTryCompileExec1294446295.dir/build]
+  ignore line: [gmake[2]: Entering directory '/home/parigi_n/compil/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/parigi_n/compil/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec1294446295.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec1294446295.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec1294446295]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1294446295.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTryCompileExec1294446295.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec1294446295 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib64/gcc/x86_64-suse-linux/4.8/lto-wrapper]
+  ignore line: [Target: x86_64-suse-linux]
+  ignore line: [Configured with: ../configure --prefix=/usr --infodir=/usr/share/info --mandir=/usr/share/man --libdir=/usr/lib64 --libexecdir=/usr/lib64 --enable-languages=c,c++,objc,fortran,obj-c++,java,ada --enable-checking=release --with-gxx-include-dir=/usr/include/c++/4.8 --enable-ssp --disable-libssp --disable-plugin --with-bugurl=http://bugs.opensuse.org/ --with-pkgversion='SUSE Linux' --disable-libgcj --disable-libmudflap --with-slibdir=/lib64 --with-system-zlib --enable-__cxa_atexit --enable-libstdcxx-allocator=new --disable-libstdcxx-pch --enable-version-specific-runtime-libs --enable-linker-build-id --enable-linux-futex --program-suffix=-4.8 --without-system-libunwind --with-arch-32=i586 --with-tune=generic --build=x86_64-suse-linux --host=x86_64-suse-linux]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.3 20140627 [gcc-4_8-branch revision 212064] (SUSE Linux) ]
+  ignore line: [COMPILER_PATH=/usr/lib64/gcc/x86_64-suse-linux/4.8/:/usr/lib64/gcc/x86_64-suse-linux/4.8/:/usr/lib64/gcc/x86_64-suse-linux/:/usr/lib64/gcc/x86_64-suse-linux/4.8/:/usr/lib64/gcc/x86_64-suse-linux/:/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/bin/]
+  ignore line: [LIBRARY_PATH=/usr/lib64/gcc/x86_64-suse-linux/4.8/:/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/lib/:/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1294446295' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib64/gcc/x86_64-suse-linux/4.8/collect2 --build-id --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec1294446295 /usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-suse-linux/4.8/crtbegin.o -L/usr/lib64/gcc/x86_64-suse-linux/4.8 -L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/lib -L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../.. CMakeFiles/cmTryCompileExec1294446295.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib64/gcc/x86_64-suse-linux/4.8/crtend.o /usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crtn.o]
+    arg [/usr/lib64/gcc/x86_64-suse-linux/4.8/collect2] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec1294446295] ==> ignore
+    arg [/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crt1.o] ==> ignore
+    arg [/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crti.o] ==> ignore
+    arg [/usr/lib64/gcc/x86_64-suse-linux/4.8/crtbegin.o] ==> ignore
+    arg [-L/usr/lib64/gcc/x86_64-suse-linux/4.8] ==> dir [/usr/lib64/gcc/x86_64-suse-linux/4.8]
+    arg [-L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64] ==> dir [/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/lib] ==> dir [/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/lib]
+    arg [-L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../..] ==> dir [/usr/lib64/gcc/x86_64-suse-linux/4.8/../../..]
+    arg [CMakeFiles/cmTryCompileExec1294446295.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib64/gcc/x86_64-suse-linux/4.8/crtend.o] ==> ignore
+    arg [/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib64/gcc/x86_64-suse-linux/4.8] ==> [/usr/lib64/gcc/x86_64-suse-linux/4.8]
+  collapse library dir [/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64] ==> [/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/lib] ==> [/usr/x86_64-suse-linux/lib]
+  collapse library dir [/usr/lib64/gcc/x86_64-suse-linux/4.8/../../..] ==> [/usr/lib64]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib64/gcc/x86_64-suse-linux/4.8;/usr/lib64;/lib64;/usr/x86_64-suse-linux/lib]
+  implicit fwks: []
+
+
+Determining if the function XOpenDisplay exists in the /usr/lib64/libX11.so;/usr/lib64/libXext.so passed with the following output:
+Change Dir: /home/parigi_n/compil/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTryCompileExec466655282/fast"
+gmake[1]: Entering directory '/home/parigi_n/compil/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec466655282.dir/build.make CMakeFiles/cmTryCompileExec466655282.dir/build
+gmake[2]: Entering directory '/home/parigi_n/compil/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/parigi_n/compil/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec466655282.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTryCompileExec466655282.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec466655282
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec466655282.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTryCompileExec466655282.dir/CheckFunctionExists.c.o  -o cmTryCompileExec466655282 -rdynamic -lX11 -lXext 
+gmake[2]: Leaving directory '/home/parigi_n/compil/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/parigi_n/compil/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gethostbyname exists passed with the following output:
+Change Dir: /home/parigi_n/compil/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTryCompileExec483857450/fast"
+gmake[1]: Entering directory '/home/parigi_n/compil/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec483857450.dir/build.make CMakeFiles/cmTryCompileExec483857450.dir/build
+gmake[2]: Entering directory '/home/parigi_n/compil/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/parigi_n/compil/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec483857450.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTryCompileExec483857450.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec483857450
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec483857450.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTryCompileExec483857450.dir/CheckFunctionExists.c.o  -o cmTryCompileExec483857450 -rdynamic 
+gmake[2]: Leaving directory '/home/parigi_n/compil/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/parigi_n/compil/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp'
+
+
+Determining if the function connect exists passed with the following output:
+Change Dir: /home/parigi_n/compil/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTryCompileExec785128538/fast"
+gmake[1]: Entering directory '/home/parigi_n/compil/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec785128538.dir/build.make CMakeFiles/cmTryCompileExec785128538.dir/build
+gmake[2]: Entering directory '/home/parigi_n/compil/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/parigi_n/compil/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec785128538.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTryCompileExec785128538.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec785128538
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec785128538.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTryCompileExec785128538.dir/CheckFunctionExists.c.o  -o cmTryCompileExec785128538 -rdynamic 
+gmake[2]: Leaving directory '/home/parigi_n/compil/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/parigi_n/compil/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp'
+
+
+Determining if the function remove exists passed with the following output:
+Change Dir: /home/parigi_n/compil/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTryCompileExec3822291620/fast"
+gmake[1]: Entering directory '/home/parigi_n/compil/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3822291620.dir/build.make CMakeFiles/cmTryCompileExec3822291620.dir/build
+gmake[2]: Entering directory '/home/parigi_n/compil/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/parigi_n/compil/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3822291620.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTryCompileExec3822291620.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3822291620
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3822291620.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTryCompileExec3822291620.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3822291620 -rdynamic 
+gmake[2]: Leaving directory '/home/parigi_n/compil/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/parigi_n/compil/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp'
+
+
+Determining if the function shmat exists passed with the following output:
+Change Dir: /home/parigi_n/compil/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTryCompileExec1557187660/fast"
+gmake[1]: Entering directory '/home/parigi_n/compil/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1557187660.dir/build.make CMakeFiles/cmTryCompileExec1557187660.dir/build
+gmake[2]: Entering directory '/home/parigi_n/compil/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/parigi_n/compil/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1557187660.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTryCompileExec1557187660.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1557187660
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1557187660.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTryCompileExec1557187660.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1557187660 -rdynamic 
+gmake[2]: Leaving directory '/home/parigi_n/compil/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/parigi_n/compil/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp'
+
+
+Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
+Change Dir: /home/parigi_n/compil/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTryCompileExec3632154472/fast"
+gmake[1]: Entering directory '/home/parigi_n/compil/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3632154472.dir/build.make CMakeFiles/cmTryCompileExec3632154472.dir/build
+gmake[2]: Entering directory '/home/parigi_n/compil/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/parigi_n/compil/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3632154472.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTryCompileExec3632154472.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3632154472
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3632154472.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    CMakeFiles/cmTryCompileExec3632154472.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3632154472 -rdynamic -lICE 
+gmake[2]: Leaving directory '/home/parigi_n/compil/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/parigi_n/compil/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp'
+
+
+Determining if the function XOpenDisplay exists in the /usr/lib64/libX11.so;/usr/lib64/libXext.so passed with the following output:
+Change Dir: /run/media/parigi_n/Linux_data/tmp/tmp3/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTryCompileExec1129248845/fast"
+gmake[1]: Entering directory '/run/media/parigi_n/Linux_data/tmp/tmp3/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1129248845.dir/build.make CMakeFiles/cmTryCompileExec1129248845.dir/build
+gmake[2]: Entering directory '/run/media/parigi_n/Linux_data/tmp/tmp3/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /run/media/parigi_n/Linux_data/tmp/tmp3/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1129248845.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTryCompileExec1129248845.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1129248845
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1129248845.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTryCompileExec1129248845.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1129248845 -rdynamic -lX11 -lXext 
+gmake[2]: Leaving directory '/run/media/parigi_n/Linux_data/tmp/tmp3/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/run/media/parigi_n/Linux_data/tmp/tmp3/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gethostbyname exists passed with the following output:
+Change Dir: /run/media/parigi_n/Linux_data/tmp/tmp3/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTryCompileExec3880352266/fast"
+gmake[1]: Entering directory '/run/media/parigi_n/Linux_data/tmp/tmp3/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3880352266.dir/build.make CMakeFiles/cmTryCompileExec3880352266.dir/build
+gmake[2]: Entering directory '/run/media/parigi_n/Linux_data/tmp/tmp3/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /run/media/parigi_n/Linux_data/tmp/tmp3/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3880352266.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTryCompileExec3880352266.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3880352266
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3880352266.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTryCompileExec3880352266.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3880352266 -rdynamic 
+gmake[2]: Leaving directory '/run/media/parigi_n/Linux_data/tmp/tmp3/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/run/media/parigi_n/Linux_data/tmp/tmp3/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp'
+
+
+Determining if the function connect exists passed with the following output:
+Change Dir: /run/media/parigi_n/Linux_data/tmp/tmp3/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTryCompileExec3552892941/fast"
+gmake[1]: Entering directory '/run/media/parigi_n/Linux_data/tmp/tmp3/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3552892941.dir/build.make CMakeFiles/cmTryCompileExec3552892941.dir/build
+gmake[2]: Entering directory '/run/media/parigi_n/Linux_data/tmp/tmp3/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /run/media/parigi_n/Linux_data/tmp/tmp3/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3552892941.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTryCompileExec3552892941.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3552892941
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3552892941.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTryCompileExec3552892941.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3552892941 -rdynamic 
+gmake[2]: Leaving directory '/run/media/parigi_n/Linux_data/tmp/tmp3/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/run/media/parigi_n/Linux_data/tmp/tmp3/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp'
+
+
+Determining if the function remove exists passed with the following output:
+Change Dir: /run/media/parigi_n/Linux_data/tmp/tmp3/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTryCompileExec477546867/fast"
+gmake[1]: Entering directory '/run/media/parigi_n/Linux_data/tmp/tmp3/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec477546867.dir/build.make CMakeFiles/cmTryCompileExec477546867.dir/build
+gmake[2]: Entering directory '/run/media/parigi_n/Linux_data/tmp/tmp3/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /run/media/parigi_n/Linux_data/tmp/tmp3/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec477546867.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTryCompileExec477546867.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec477546867
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec477546867.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTryCompileExec477546867.dir/CheckFunctionExists.c.o  -o cmTryCompileExec477546867 -rdynamic 
+gmake[2]: Leaving directory '/run/media/parigi_n/Linux_data/tmp/tmp3/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/run/media/parigi_n/Linux_data/tmp/tmp3/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp'
+
+
+Determining if the function shmat exists passed with the following output:
+Change Dir: /run/media/parigi_n/Linux_data/tmp/tmp3/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTryCompileExec1888711305/fast"
+gmake[1]: Entering directory '/run/media/parigi_n/Linux_data/tmp/tmp3/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1888711305.dir/build.make CMakeFiles/cmTryCompileExec1888711305.dir/build
+gmake[2]: Entering directory '/run/media/parigi_n/Linux_data/tmp/tmp3/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /run/media/parigi_n/Linux_data/tmp/tmp3/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1888711305.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTryCompileExec1888711305.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1888711305
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1888711305.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTryCompileExec1888711305.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1888711305 -rdynamic 
+gmake[2]: Leaving directory '/run/media/parigi_n/Linux_data/tmp/tmp3/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/run/media/parigi_n/Linux_data/tmp/tmp3/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp'
+
+
+Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
+Change Dir: /run/media/parigi_n/Linux_data/tmp/tmp3/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTryCompileExec208926077/fast"
+gmake[1]: Entering directory '/run/media/parigi_n/Linux_data/tmp/tmp3/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec208926077.dir/build.make CMakeFiles/cmTryCompileExec208926077.dir/build
+gmake[2]: Entering directory '/run/media/parigi_n/Linux_data/tmp/tmp3/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /run/media/parigi_n/Linux_data/tmp/tmp3/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec208926077.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTryCompileExec208926077.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec208926077
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec208926077.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    CMakeFiles/cmTryCompileExec208926077.dir/CheckFunctionExists.c.o  -o cmTryCompileExec208926077 -rdynamic -lICE 
+gmake[2]: Leaving directory '/run/media/parigi_n/Linux_data/tmp/tmp3/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/run/media/parigi_n/Linux_data/tmp/tmp3/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp'
+
+
+The system is: Linux - 4.4.19-1-MANJARO - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/3.6.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/3.6.1/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/make" "cmTC_8f98d/fast"
+make[1] : on entre dans le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+/bin/make -f CMakeFiles/cmTC_8f98d.dir/build.make CMakeFiles/cmTC_8f98d.dir/build
+make[2] : on entre dans le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_8f98d.dir/testCCompiler.c.o
+/bin/cc     -o CMakeFiles/cmTC_8f98d.dir/testCCompiler.c.o   -c /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_8f98d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f98d.dir/link.txt --verbose=1
+/bin/cc       CMakeFiles/cmTC_8f98d.dir/testCCompiler.c.o  -o cmTC_8f98d -rdynamic 
+make[2] : on quitte le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/make" "cmTC_0b135/fast"
+make[1] : on entre dans le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+/bin/make -f CMakeFiles/cmTC_0b135.dir/build.make CMakeFiles/cmTC_0b135.dir/build
+make[2] : on entre dans le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_0b135.dir/CMakeCCompilerABI.c.o
+/bin/cc     -o CMakeFiles/cmTC_0b135.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.6/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_0b135
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0b135.dir/link.txt --verbose=1
+/bin/cc      -v CMakeFiles/cmTC_0b135.dir/CMakeCCompilerABI.c.o  -o cmTC_0b135 -rdynamic  
+Utilisation des specs internes.
+COLLECT_GCC=/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/lto-wrapper
+Cible : x86_64-pc-linux-gnu
+Configuré avec: /build/gcc-multilib/src/gcc/configure --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++ --enable-shared --enable-threads=posix --enable-libmpx --with-system-zlib --with-isl --enable-__cxa_atexit --disable-libunwind-exceptions --enable-clocale=gnu --disable-libstdcxx-pch --disable-libssp --enable-gnu-unique-object --enable-linker-build-id --enable-lto --enable-plugin --enable-install-libiberty --with-linker-hash-style=gnu --enable-gnu-indirect-function --enable-multilib --disable-werror --enable-checking=release
+Modèle de thread: posix
+gcc version 6.1.1 20160802 (GCC) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0b135' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccDdxv2j.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_0b135 /usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib/crt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/crtbegin.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../.. CMakeFiles/cmTC_0b135.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/crtend.o /usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0b135' '-rdynamic' '-mtune=generic' '-march=x86-64'
+make[2] : on quitte le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/bin/make" "cmTC_0b135/fast"]
+  ignore line: [make[1] : on entre dans le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »]
+  ignore line: [/bin/make -f CMakeFiles/cmTC_0b135.dir/build.make CMakeFiles/cmTC_0b135.dir/build]
+  ignore line: [make[2] : on entre dans le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »]
+  ignore line: [Building C object CMakeFiles/cmTC_0b135.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/bin/cc     -o CMakeFiles/cmTC_0b135.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.6/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_0b135]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0b135.dir/link.txt --verbose=1]
+  ignore line: [/bin/cc      -v CMakeFiles/cmTC_0b135.dir/CMakeCCompilerABI.c.o  -o cmTC_0b135 -rdynamic  ]
+  ignore line: [Utilisation des specs internes.]
+  ignore line: [COLLECT_GCC=/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/lto-wrapper]
+  ignore line: [Cible : x86_64-pc-linux-gnu]
+  ignore line: [Configuré avec: /build/gcc-multilib/src/gcc/configure --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++ --enable-shared --enable-threads=posix --enable-libmpx --with-system-zlib --with-isl --enable-__cxa_atexit --disable-libunwind-exceptions --enable-clocale=gnu --disable-libstdcxx-pch --disable-libssp --enable-gnu-unique-object --enable-linker-build-id --enable-lto --enable-plugin --enable-install-libiberty --with-linker-hash-style=gnu --enable-gnu-indirect-function --enable-multilib --disable-werror --enable-checking=release]
+  ignore line: [Modèle de thread: posix]
+  ignore line: [gcc version 6.1.1 20160802 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0b135' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccDdxv2j.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_0b135 /usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib/crt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/crtbegin.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../.. CMakeFiles/cmTC_0b135.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/crtend.o /usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib/crtn.o]
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccDdxv2j.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_0b135] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../..]
+    arg [CMakeFiles/cmTC_0b135.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1;/usr/lib;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/make" "cmTC_eb9a6/fast"
+make[1] : on entre dans le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+/bin/make -f CMakeFiles/cmTC_eb9a6.dir/build.make CMakeFiles/cmTC_eb9a6.dir/build
+make[2] : on entre dans le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_eb9a6.dir/feature_tests.c.o
+/bin/cc    -std=c11 -o CMakeFiles/cmTC_eb9a6.dir/feature_tests.c.o   -c /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/feature_tests.c
+Linking C executable cmTC_eb9a6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb9a6.dir/link.txt --verbose=1
+/bin/cc       CMakeFiles/cmTC_eb9a6.dir/feature_tests.c.o  -o cmTC_eb9a6 -rdynamic 
+make[2] : on quitte le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/make" "cmTC_f313b/fast"
+make[1] : on entre dans le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+/bin/make -f CMakeFiles/cmTC_f313b.dir/build.make CMakeFiles/cmTC_f313b.dir/build
+make[2] : on entre dans le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_f313b.dir/feature_tests.c.o
+/bin/cc    -std=c99 -o CMakeFiles/cmTC_f313b.dir/feature_tests.c.o   -c /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/feature_tests.c
+Linking C executable cmTC_f313b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f313b.dir/link.txt --verbose=1
+/bin/cc       CMakeFiles/cmTC_f313b.dir/feature_tests.c.o  -o cmTC_f313b -rdynamic 
+make[2] : on quitte le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/make" "cmTC_cd0b9/fast"
+make[1] : on entre dans le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+/bin/make -f CMakeFiles/cmTC_cd0b9.dir/build.make CMakeFiles/cmTC_cd0b9.dir/build
+make[2] : on entre dans le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_cd0b9.dir/feature_tests.c.o
+/bin/cc    -std=c90 -o CMakeFiles/cmTC_cd0b9.dir/feature_tests.c.o   -c /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/feature_tests.c
+Linking C executable cmTC_cd0b9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd0b9.dir/link.txt --verbose=1
+/bin/cc       CMakeFiles/cmTC_cd0b9.dir/feature_tests.c.o  -o cmTC_cd0b9 -rdynamic 
+make[2] : on quitte le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/make" "cmTC_f9282/fast"
+make[1] : on entre dans le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+/bin/make -f CMakeFiles/cmTC_f9282.dir/build.make CMakeFiles/cmTC_f9282.dir/build
+make[2] : on entre dans le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_f9282.dir/testCXXCompiler.cxx.o
+/bin/c++      -o CMakeFiles/cmTC_f9282.dir/testCXXCompiler.cxx.o -c /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_f9282
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9282.dir/link.txt --verbose=1
+/bin/c++        CMakeFiles/cmTC_f9282.dir/testCXXCompiler.cxx.o  -o cmTC_f9282 -rdynamic 
+make[2] : on quitte le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/make" "cmTC_6b2c5/fast"
+make[1] : on entre dans le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+/bin/make -f CMakeFiles/cmTC_6b2c5.dir/build.make CMakeFiles/cmTC_6b2c5.dir/build
+make[2] : on entre dans le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_6b2c5.dir/CMakeCXXCompilerABI.cpp.o
+/bin/c++      -o CMakeFiles/cmTC_6b2c5.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.6/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_6b2c5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b2c5.dir/link.txt --verbose=1
+/bin/c++       -v CMakeFiles/cmTC_6b2c5.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_6b2c5 -rdynamic  
+Utilisation des specs internes.
+COLLECT_GCC=/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/lto-wrapper
+Cible : x86_64-pc-linux-gnu
+Configuré avec: /build/gcc-multilib/src/gcc/configure --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++ --enable-shared --enable-threads=posix --enable-libmpx --with-system-zlib --with-isl --enable-__cxa_atexit --disable-libunwind-exceptions --enable-clocale=gnu --disable-libstdcxx-pch --disable-libssp --enable-gnu-unique-object --enable-linker-build-id --enable-lto --enable-plugin --enable-install-libiberty --with-linker-hash-style=gnu --enable-gnu-indirect-function --enable-multilib --disable-werror --enable-checking=release
+Modèle de thread: posix
+gcc version 6.1.1 20160802 (GCC) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6b2c5' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cceEfCMI.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_6b2c5 /usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib/crt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/crtbegin.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../.. CMakeFiles/cmTC_6b2c5.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/crtend.o /usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6b2c5' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[2] : on quitte le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/bin/make" "cmTC_6b2c5/fast"]
+  ignore line: [make[1] : on entre dans le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »]
+  ignore line: [/bin/make -f CMakeFiles/cmTC_6b2c5.dir/build.make CMakeFiles/cmTC_6b2c5.dir/build]
+  ignore line: [make[2] : on entre dans le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »]
+  ignore line: [Building CXX object CMakeFiles/cmTC_6b2c5.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/bin/c++      -o CMakeFiles/cmTC_6b2c5.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.6/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_6b2c5]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b2c5.dir/link.txt --verbose=1]
+  ignore line: [/bin/c++       -v CMakeFiles/cmTC_6b2c5.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_6b2c5 -rdynamic  ]
+  ignore line: [Utilisation des specs internes.]
+  ignore line: [COLLECT_GCC=/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/lto-wrapper]
+  ignore line: [Cible : x86_64-pc-linux-gnu]
+  ignore line: [Configuré avec: /build/gcc-multilib/src/gcc/configure --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++ --enable-shared --enable-threads=posix --enable-libmpx --with-system-zlib --with-isl --enable-__cxa_atexit --disable-libunwind-exceptions --enable-clocale=gnu --disable-libstdcxx-pch --disable-libssp --enable-gnu-unique-object --enable-linker-build-id --enable-lto --enable-plugin --enable-install-libiberty --with-linker-hash-style=gnu --enable-gnu-indirect-function --enable-multilib --disable-werror --enable-checking=release]
+  ignore line: [Modèle de thread: posix]
+  ignore line: [gcc version 6.1.1 20160802 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6b2c5' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cceEfCMI.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_6b2c5 /usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib/crt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/crtbegin.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../.. CMakeFiles/cmTC_6b2c5.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/crtend.o /usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib/crtn.o]
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cceEfCMI.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_6b2c5] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../..]
+    arg [CMakeFiles/cmTC_6b2c5.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1;/usr/lib;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/make" "cmTC_2297d/fast"
+make[1] : on entre dans le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+/bin/make -f CMakeFiles/cmTC_2297d.dir/build.make CMakeFiles/cmTC_2297d.dir/build
+make[2] : on entre dans le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_2297d.dir/feature_tests.cxx.o
+/bin/c++     -std=c++14 -o CMakeFiles/cmTC_2297d.dir/feature_tests.cxx.o -c /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_2297d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2297d.dir/link.txt --verbose=1
+/bin/c++        CMakeFiles/cmTC_2297d.dir/feature_tests.cxx.o  -o cmTC_2297d -rdynamic 
+make[2] : on quitte le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/make" "cmTC_9c6f7/fast"
+make[1] : on entre dans le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+/bin/make -f CMakeFiles/cmTC_9c6f7.dir/build.make CMakeFiles/cmTC_9c6f7.dir/build
+make[2] : on entre dans le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_9c6f7.dir/feature_tests.cxx.o
+/bin/c++     -std=c++11 -o CMakeFiles/cmTC_9c6f7.dir/feature_tests.cxx.o -c /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_9c6f7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9c6f7.dir/link.txt --verbose=1
+/bin/c++        CMakeFiles/cmTC_9c6f7.dir/feature_tests.cxx.o  -o cmTC_9c6f7 -rdynamic 
+make[2] : on quitte le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/make" "cmTC_1a7ff/fast"
+make[1] : on entre dans le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+/bin/make -f CMakeFiles/cmTC_1a7ff.dir/build.make CMakeFiles/cmTC_1a7ff.dir/build
+make[2] : on entre dans le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+Building CXX object CMakeFiles/cmTC_1a7ff.dir/feature_tests.cxx.o
+/bin/c++     -std=c++98 -o CMakeFiles/cmTC_1a7ff.dir/feature_tests.cxx.o -c /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_1a7ff
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a7ff.dir/link.txt --verbose=1
+/bin/c++        CMakeFiles/cmTC_1a7ff.dir/feature_tests.cxx.o  -o cmTC_1a7ff -rdynamic 
+make[2] : on quitte le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the function XOpenDisplay exists in the /usr/lib64/libX11.so;/usr/lib64/libXext.so passed with the following output:
+Change Dir: /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/make" "cmTC_9a7a1/fast"
+make[1] : on entre dans le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+/bin/make -f CMakeFiles/cmTC_9a7a1.dir/build.make CMakeFiles/cmTC_9a7a1.dir/build
+make[2] : on entre dans le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_9a7a1.dir/CheckFunctionExists.c.o
+/bin/cc    -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTC_9a7a1.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.6/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9a7a1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9a7a1.dir/link.txt --verbose=1
+/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTC_9a7a1.dir/CheckFunctionExists.c.o  -o cmTC_9a7a1 -rdynamic /usr/lib64/libX11.so /usr/lib64/libXext.so 
+make[2] : on quitte le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+
+
+Determining if the function gethostbyname exists passed with the following output:
+Change Dir: /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/make" "cmTC_ff6e2/fast"
+make[1] : on entre dans le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+/bin/make -f CMakeFiles/cmTC_ff6e2.dir/build.make CMakeFiles/cmTC_ff6e2.dir/build
+make[2] : on entre dans le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_ff6e2.dir/CheckFunctionExists.c.o
+/bin/cc    -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_ff6e2.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.6/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ff6e2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff6e2.dir/link.txt --verbose=1
+/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTC_ff6e2.dir/CheckFunctionExists.c.o  -o cmTC_ff6e2 -rdynamic 
+make[2] : on quitte le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+
+
+Determining if the function connect exists passed with the following output:
+Change Dir: /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/make" "cmTC_f4f0d/fast"
+make[1] : on entre dans le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+/bin/make -f CMakeFiles/cmTC_f4f0d.dir/build.make CMakeFiles/cmTC_f4f0d.dir/build
+make[2] : on entre dans le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_f4f0d.dir/CheckFunctionExists.c.o
+/bin/cc    -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTC_f4f0d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.6/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f4f0d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f4f0d.dir/link.txt --verbose=1
+/bin/cc   -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTC_f4f0d.dir/CheckFunctionExists.c.o  -o cmTC_f4f0d -rdynamic 
+make[2] : on quitte le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+
+
+Determining if the function remove exists passed with the following output:
+Change Dir: /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/make" "cmTC_ae3b1/fast"
+make[1] : on entre dans le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+/bin/make -f CMakeFiles/cmTC_ae3b1.dir/build.make CMakeFiles/cmTC_ae3b1.dir/build
+make[2] : on entre dans le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_ae3b1.dir/CheckFunctionExists.c.o
+/bin/cc    -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTC_ae3b1.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.6/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ae3b1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae3b1.dir/link.txt --verbose=1
+/bin/cc   -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTC_ae3b1.dir/CheckFunctionExists.c.o  -o cmTC_ae3b1 -rdynamic 
+make[2] : on quitte le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+
+
+Determining if the function shmat exists passed with the following output:
+Change Dir: /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/make" "cmTC_009cd/fast"
+make[1] : on entre dans le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+/bin/make -f CMakeFiles/cmTC_009cd.dir/build.make CMakeFiles/cmTC_009cd.dir/build
+make[2] : on entre dans le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_009cd.dir/CheckFunctionExists.c.o
+/bin/cc    -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTC_009cd.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.6/Modules/CheckFunctionExists.c
+Linking C executable cmTC_009cd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_009cd.dir/link.txt --verbose=1
+/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTC_009cd.dir/CheckFunctionExists.c.o  -o cmTC_009cd -rdynamic 
+make[2] : on quitte le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+
+
+Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
+Change Dir: /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/make" "cmTC_4ac7f/fast"
+make[1] : on entre dans le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+/bin/make -f CMakeFiles/cmTC_4ac7f.dir/build.make CMakeFiles/cmTC_4ac7f.dir/build
+make[2] : on entre dans le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_4ac7f.dir/CheckFunctionExists.c.o
+/bin/cc    -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTC_4ac7f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.6/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4ac7f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ac7f.dir/link.txt --verbose=1
+/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    CMakeFiles/cmTC_4ac7f.dir/CheckFunctionExists.c.o  -o cmTC_4ac7f -rdynamic -lICE 
+make[2] : on quitte le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+make[1] : on quitte le répertoire « /home/parigi_n/rendu/cpp_indie_studio/lib/SFML-audio/CMakeFiles/CMakeTmp »
+
+

@@ -1,0 +1,15 @@
+#!/bin/bash
+MY_PATH="`dirname \"$0\"`"
+echo "$MY_PATH"
+
+pushd "$MY_PATH"
+export LD_LIBRARY_PATH=lib/bin/:$LD_LIBRARY_PATH
+echo "Launching Bomberman"
+if ./bomberman; then
+    echo "$(tput setaf 2)Success !$(tput sgr0)"
+else
+    echo "Error"
+    echo "Try to compile the game using 'make' or the missing libraries with 'make (library_name)'"
+fi
+
+popd

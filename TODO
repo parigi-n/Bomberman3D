@@ -1,0 +1,41 @@
+____ MAP ______
+
+Création de la map aléatoirement
+Sauvegarde de la map
+Recupération d'une map sauvegardée
+
+____ MENU _______
+
+Menu start du jeu
+Logo en grand au milieu
+Bouton Start
+CHoix du nombre de joueurs
+Possibilité de recuperer une sauvegarde
+
+____ WINDOWS ____
+
+Installeur windows
+
+____ IA ______
+
+Créer l'IA des monstres (simple)
+(facultatif) Joueur bomberman IA
+
+____ MODELS 3D _____
+
+Trouver des modèles 3D pour :
+Les bonus
+Les joueurs
+Les monstres
+
+Il faudra aussi les animer
+
+_____ TOUCHES ____
+
+Gérer les touches, et les deplacements du joueurs
+
+
+IDÉES BONUS
+lancer des bombes
+mode fps
+ia dans fichiers dynamiques

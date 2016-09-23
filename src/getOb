@@ -1,0 +1,913 @@
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K      if (ix == 1 || ix == 2 || ix == length [01;31m[K-[m[K 3 || ix == length [01;31m[K-[m[K 2)
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K      if (ix == 1 || ix == length [01;31m[K-[m[K 2)
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K  else if (iy == width [01;31m[K-[m[K 2)
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K      if (ix == 1 || ix == 2 || ix == length [01;31m[K-[m[K 3 || ix == length [01;31m[K-[m[K 2)
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K  else if (iy == width [01;31m[K-[m[K 3)
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K      if (ix == 1 || ix == length [01;31m[K-[m[K 2)
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K				       irr::core::vector2di(length [01;31m[K-[m[K 2, 1),
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K				       irr::core::vector2di(1, width [01;31m[K-[m[K 2),
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K				       irr::core::vector2di(length [01;31m[K-[m[K 2, width [01;31m[K-[m[K 2)};
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K		    Player *tmp = new Player(this[01;31m[K-[m[K>texturePack, this[01;31m[K-[m[K>meshPack, this[01;31m[K-[m[K>smgr, this[01;31m[K-[m[K>video, this[01;31m[K-[m[K>effect, posPlayer[i],
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K		    //std::cout << " __ " << playerList[i][01;31m[K-[m[K>getID() << std::endl;
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K		    Bot *tmp = new Bot(this[01;31m[K-[m[K>texturePack, this[01;31m[K-[m[K>meshPack, this[01;31m[K-[m[K>smgr, this[01;31m[K-[m[K>video, this[01;31m[K-[m[K>effect, posPlayer[i],
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K				       i, this[01;31m[K-[m[K>map, this[01;31m[K-[m[K>entityList);
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K  // for (std::vector<Entity>::iterator itEntity = this[01;31m[K-[m[K>entityList.begin();
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K  //      itEntity != this[01;31m[K-[m[K>entityList.end(); ++itEntity)
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K  //     playerList[itEntity [01;31m[K-[m[K this[01;31m[K-[m[K>entityList.begin()] = &(*itEntity);
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K	  if (ix == 0 || iy == 0 || ix == length [01;31m[K-[m[K 1 || iy == width [01;31m[K-[m[K 1)
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K	      map[ix][iy].setObject(new Block(ix, iy, this[01;31m[K-[m[K>texturePack, this[01;31m[K-[m[K>meshPack, this[01;31m[K-[m[K>smgr, this[01;31m[K-[m[K>effect, BlockType::HARD, false));
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K	      map[ix][iy].setObject(new Block(ix, iy, this[01;31m[K-[m[K>texturePack, this[01;31m[K-[m[K>meshPack, this[01;31m[K-[m[K>smgr, this[01;31m[K-[m[K>effect, BlockType::HARD, true));
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K	      map[ix][iy].setObject(new Block(ix, iy, this[01;31m[K-[m[K>texturePack, this[01;31m[K-[m[K>meshPack, this[01;31m[K-[m[K>smgr, this[01;31m[K-[m[K>effect, BlockType::LIGHT, true));
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K	  //     map[ix][iy].setObject(new Block(ix, iy, this[01;31m[K-[m[K>texturePack, this[01;31m[K-[m[K>meshPack, this[01;31m[K-[m[K>smgr, this[01;31m[K-[m[K>effect, BlockType::EMPTY, true));
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>video = this[01;31m[K-[m[K>device[01;31m[K-[m[K>getVideoDriver();
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>smgr = this[01;31m[K-[m[K>device[01;31m[K-[m[K>getSceneManager();
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K  smgr[01;31m[K-[m[K>clear();
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K  //smgr[01;31m[K-[m[K>setAmbientLight(irr::video::SColor(1.0, 1.0, 1.0, 1.0));
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K  if (this[01;31m[K-[m[K>effect != NULL)
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K    delete (this[01;31m[K-[m[K>effect);
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K  EffectHandler *effect = new EffectHandler(device, video[01;31m[K-[m[K>getScreenSize(), false, false, false);
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K  effect[01;31m[K-[m[K>setAmbientColor(irr::video::SColor(255, 100, 100, 255));
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K  effect[01;31m[K-[m[K>setClearColour(irr::video::SColor(0x0));
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K  effect[01;31m[K-[m[K>addShadowLight(SShadowLight(2048, vector3df([01;31m[K-[m[K80, 500, [01;31m[K-[m[K80), vector3df(150, 0, 150),
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>effect = effect;
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K  irr::scene::IMesh* grid = smgr[01;31m[K-[m[K>getGeometryCreator()[01;31m[K-[m[K>
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>grid = smgr[01;31m[K-[m[K>addMeshSceneNode(grid);
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>grid[01;31m[K-[m[K>setPosition(vector3df(length / 2 * BLOCK_SIZE, 0, width / 2 * BLOCK_SIZE));
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>grid[01;31m[K-[m[K>setMaterialFlag(irr::video::EMF_LIGHTING, false);
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K  //this[01;31m[K-[m[K>grid[01;31m[K-[m[K>setMaterialFlag(video::EMF_BILINEAR_FILTER, false);
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>grid[01;31m[K-[m[K>setMaterialTexture(0, texturePack[01;31m[K-[m[K>getTexture(BlockType::TGRID));
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>effect[01;31m[K-[m[K>addShadowToNode(this[01;31m[K-[m[K>grid, EFT_16PCF, ESM_RECEIVE); //Le plan n'emet pas d'ombre, mais en reçoit
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K  std::vector<std::vector<Case> > newMap(length, std::vector<Case>(width, Case(this[01;31m[K-[m[K>texturePack, this[01;31m[K-[m[K>meshPack, this[01;31m[K-[m[K>smgr, this[01;31m[K-[m[K>effect)));
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>map = newMap;
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K  std::cout << this[01;31m[K-[m[K>map.size() << this[01;31m[K-[m[K>map[4].size();
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K  createPlayer(this[01;31m[K-[m[K>meshPack[01;31m[K-[m[K>getMesh(BlockType::PLAYER));
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K  video[01;31m[K-[m[K>setTextureCreationFlag(irr::video::ETCF_CREATE_MIP_MAPS, false); //Evite le flou des textures
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>skybox = smgr[01;31m[K-[m[K>addSkyBoxSceneNode(
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K					  video[01;31m[K-[m[K>getTexture("media/desertsky_up.tga"),
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K					  video[01;31m[K-[m[K>getTexture("media/desertsky_dn.tga"),
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K					  video[01;31m[K-[m[K>getTexture("media/desertsky_rt.tga"),
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K					  video[01;31m[K-[m[K>getTexture("media/desertsky_lf.tga"),
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K					  video[01;31m[K-[m[K>getTexture("media/desertsky_ft.tga"),
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K					  video[01;31m[K-[m[K>getTexture("media/desertsky_bk.tga"));
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K  video[01;31m[K-[m[K>setTextureCreationFlag(irr::video::ETCF_CREATE_MIP_MAPS, true);
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K  //xthis[01;31m[K-[m[K>camera = smgr[01;31m[K-[m[K>addCameraSceneNodeFPS();
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>camera = smgr[01;31m[K-[m[K>addCameraSceneNode(0, vector3df(length * BLOCK_SIZE / 2, 145, width * BLOCK_SIZE / 2), vector3df(length * BLOCK_SIZE / 2, [01;31m[K-[m[K1000, width * BLOCK_SIZE / 1.8));
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K  //this[01;31m[K-[m[K>camera[01;31m[K-[m[K>setFOV((float)(PI / 2.2));
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>video = this[01;31m[K-[m[K>device[01;31m[K-[m[K>getVideoDriver();
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>smgr = this[01;31m[K-[m[K>device[01;31m[K-[m[K>getSceneManager();
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K  smgr[01;31m[K-[m[K>clear();
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K  //smgr[01;31m[K-[m[K>setAmbientLight(irr::video::SColor(1.0, 1.0, 1.0, 1.0));
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K  if (this[01;31m[K-[m[K>effect != NULL)
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K    delete (this[01;31m[K-[m[K>effect);
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K  EffectHandler *effect = new EffectHandler(device, video[01;31m[K-[m[K>getScreenSize(), false, false, false);
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K  effect[01;31m[K-[m[K>setAmbientColor(irr::video::SColor(255, 100, 100, 255));
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K  effect[01;31m[K-[m[K>setClearColour(irr::video::SColor(0x0));
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K  effect[01;31m[K-[m[K>addShadowLight(SShadowLight(2048, vector3df([01;31m[K-[m[K80, 500, [01;31m[K-[m[K80), vector3df(150, 0, 150),
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>effect = effect;
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K  irr::scene::IMesh* grid = smgr[01;31m[K-[m[K>getGeometryCreator()[01;31m[K-[m[K>
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>grid = smgr[01;31m[K-[m[K>addMeshSceneNode(grid);
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>grid[01;31m[K-[m[K>setPosition(vector3df(length / 2 * BLOCK_SIZE, 0, width / 2 * BLOCK_SIZE));
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>grid[01;31m[K-[m[K>setMaterialFlag(irr::video::EMF_LIGHTING, false);
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K  //this[01;31m[K-[m[K>grid[01;31m[K-[m[K>setMaterialFlag(video::EMF_BILINEAR_FILTER, false);
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>grid[01;31m[K-[m[K>setMaterialTexture(0, texturePack[01;31m[K-[m[K>getTexture(BlockType::TGRID));
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>effect[01;31m[K-[m[K>addShadowToNode(this[01;31m[K-[m[K>grid, EFT_16PCF, ESM_RECEIVE); //Le plan n'emet pas d'ombre, mais en reçoit
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K  //std::vector<std::vector<Case> > newMap(length, std::vector<Case>(width, Case(this[01;31m[K-[m[K>texturePack, this[01;31m[K-[m[K>meshPack, this[01;31m[K-[m[K>smgr, this[01;31m[K-[m[K>effect)));
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K  //this[01;31m[K-[m[K>map = newMap;
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K  //std::cout << this[01;31m[K-[m[K>map.size() << this[01;31m[K-[m[K>map[4].size();
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K  createPlayer(this[01;31m[K-[m[K>meshPack[01;31m[K-[m[K>getMesh(BlockType::PLAYER));
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K  video[01;31m[K-[m[K>setTextureCreationFlag(irr::video::ETCF_CREATE_MIP_MAPS, false); //Evite le flou des textures
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>skybox = smgr[01;31m[K-[m[K>addSkyBoxSceneNode(
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K					  video[01;31m[K-[m[K>getTexture("media/desertsky_up.tga"),
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K					  video[01;31m[K-[m[K>getTexture("media/desertsky_dn.tga"),
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K					  video[01;31m[K-[m[K>getTexture("media/desertsky_rt.tga"),
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K					  video[01;31m[K-[m[K>getTexture("media/desertsky_lf.tga"),
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K					  video[01;31m[K-[m[K>getTexture("media/desertsky_ft.tga"),
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K					  video[01;31m[K-[m[K>getTexture("media/desertsky_bk.tga"));
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K  video[01;31m[K-[m[K>setTextureCreationFlag(irr::video::ETCF_CREATE_MIP_MAPS, true);
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K  //xthis[01;31m[K-[m[K>camera = smgr[01;31m[K-[m[K>addCameraSceneNodeFPS();
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>camera = smgr[01;31m[K-[m[K>addCameraSceneNode(0, vector3df(length * BLOCK_SIZE / 2, 145, width * BLOCK_SIZE / 2), vector3df(length * BLOCK_SIZE / 2, [01;31m[K-[m[K1000, width * BLOCK_SIZE / 1.8));
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K  //this[01;31m[K-[m[K>camera[01;31m[K-[m[K>setFOV((float)(PI / 2.2));
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K    if (ix == 0 || iy == 0 || ix == length [01;31m[K-[m[K 1 || iy == width [01;31m[K-[m[K 1)
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K        map[ix][iy].setObject(new Block(ix, iy, this[01;31m[K-[m[K>texturePack, this[01;31m[K-[m[K>meshPack, this[01;31m[K-[m[K>smgr, this[01;31m[K-[m[K>effect, BlockType::HARD, false));
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K        map[ix][iy].setObject(new Block(ix, iy, this[01;31m[K-[m[K>texturePack, this[01;31m[K-[m[K>meshPack, this[01;31m[K-[m[K>smgr, this[01;31m[K-[m[K>effect, BlockType::HARD, true));
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K        map[ix][iy].setObject(new Block(ix, iy, this[01;31m[K-[m[K>texturePack, this[01;31m[K-[m[K>meshPack, this[01;31m[K-[m[K>smgr, this[01;31m[K-[m[K>effect, BlockType::LIGHT, true));
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K        map[ix][iy].setObject(new Item(ix, iy, this[01;31m[K-[m[K>texturePack, this[01;31m[K-[m[K>meshPack, this[01;31m[K-[m[K>smgr, this[01;31m[K-[m[K>effect));
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K        map[ix][iy].setObject(new Item(ix, iy, this[01;31m[K-[m[K>texturePack, this[01;31m[K-[m[K>meshPack, this[01;31m[K-[m[K>smgr, this[01;31m[K-[m[K>effect));
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K        map[ix][iy].setObject(new Item(ix, iy, this[01;31m[K-[m[K>texturePack, this[01;31m[K-[m[K>meshPack, this[01;31m[K-[m[K>smgr, this[01;31m[K-[m[K>effect));
+[35m[KCreateMap.cpp[m[K[36m[K:[m[K        map[ix][iy].setObject(new Item(ix, iy, this[01;31m[K-[m[K>texturePack, this[01;31m[K-[m[K>meshPack, this[01;31m[K-[m[K>smgr, this[01;31m[K-[m[K>effect));
+Fichier binaire UserInterface.o correspondant
+Fichier binaire AI.o correspondant
+[35m[Kmain.cpp[m[K[36m[K:[m[K  irr::u32 now = device[01;31m[K-[m[K>getTimer()[01;31m[K-[m[K>getTime();
+[35m[Kmain.cpp[m[K[36m[K:[m[K      if ((tex = video[01;31m[K-[m[K>getTexture("media/splashscreen.png")) == NULL)
+[35m[Kmain.cpp[m[K[36m[K:[m[K  img = env[01;31m[K-[m[K>addImage(irr::core::rect<irr::s32>(10,10, 100,225));
+[35m[Kmain.cpp[m[K[36m[K:[m[K  soundManager[01;31m[K-[m[K>playSound(SoundManager::Title1);
+[35m[Kmain.cpp[m[K[36m[K:[m[K  soundManager[01;31m[K-[m[K>playMusic("music/menu/title.ogg");
+[35m[Kmain.cpp[m[K[36m[K:[m[K  while(device[01;31m[K-[m[K>run() && device)
+[35m[Kmain.cpp[m[K[36m[K:[m[K	  img = env[01;31m[K-[m[K>addImage(irr::core::rect<irr::s32>(650, 50, posX += 5, posY += 1));
+[35m[Kmain.cpp[m[K[36m[K:[m[K	  img[01;31m[K-[m[K>setImage(tex);
+[35m[Kmain.cpp[m[K[36m[K:[m[K	  img[01;31m[K-[m[K>setScaleImage(true);
+[35m[Kmain.cpp[m[K[36m[K:[m[K	  video[01;31m[K-[m[K>beginScene(true, true, irr::video::SColor(0,200,200,200));
+[35m[Kmain.cpp[m[K[36m[K:[m[K	  env[01;31m[K-[m[K>drawAll();
+[35m[Kmain.cpp[m[K[36m[K:[m[K	  now = device[01;31m[K-[m[K>getTimer()[01;31m[K-[m[K>getTime();
+[35m[Kmain.cpp[m[K[36m[K:[m[K	  video[01;31m[K-[m[K>endScene();
+[35m[Kmain.cpp[m[K[36m[K:[m[K	  env[01;31m[K-[m[K>clear();
+[35m[Kmain.cpp[m[K[36m[K:[m[K      now = device[01;31m[K-[m[K>getTimer()[01;31m[K-[m[K>getTime();
+[35m[Kmain.cpp[m[K[36m[K:[m[K      video[01;31m[K-[m[K>beginScene(true, true, irr::video::SColor(0,200,200,200));
+[35m[Kmain.cpp[m[K[36m[K:[m[K      img = env[01;31m[K-[m[K>addImage(irr::core::rect<irr::s32>(650, 50, posX, posY));
+[35m[Kmain.cpp[m[K[36m[K:[m[K      img[01;31m[K-[m[K>setImage(tex);
+[35m[Kmain.cpp[m[K[36m[K:[m[K      img[01;31m[K-[m[K>setScaleImage(true);
+[35m[Kmain.cpp[m[K[36m[K:[m[K      env[01;31m[K-[m[K>drawAll();
+[35m[Kmain.cpp[m[K[36m[K:[m[K	font[01;31m[K-[m[K>draw(L"PRESS START", irr::core::recti(posX [01;31m[K-[m[K 900, posY + 20, posX + 200, posY + 30), irr::video::SColor(255, 248, 216, 56), true, true);
+[35m[Kmain.cpp[m[K[36m[K:[m[K      video[01;31m[K-[m[K>endScene();
+[35m[Kmain.cpp[m[K[36m[K:[m[K      env[01;31m[K-[m[K>clear();
+[35m[Kmain.cpp[m[K[36m[K:[m[K      if (receiver[01;31m[K-[m[K>IsKeyDown(irr::KEY_RETURN) == true)
+[35m[Kmain.cpp[m[K[36m[K:[m[K  video[01;31m[K-[m[K>endScene();
+[35m[Kmain.cpp[m[K[36m[K:[m[K  env[01;31m[K-[m[K>clear();
+[35m[Kmain.cpp[m[K[36m[K:[m[K  video[01;31m[K-[m[K>removeTexture(tex);
+[35m[Kmain.cpp[m[K[36m[K:[m[K  soundManager[01;31m[K-[m[K>pauseMusic();
+[35m[Kmain.cpp[m[K[36m[K:[m[K  soundManager[01;31m[K-[m[K>playSound(SoundManager::Title2);
+[35m[Kmain.cpp[m[K[36m[K:[m[K  if (receiver[01;31m[K-[m[K>getRestart() == true)
+[35m[Kmain.cpp[m[K[36m[K:[m[K      game[01;31m[K-[m[K>setState(Game::MENU);
+[35m[Kmain.cpp[m[K[36m[K:[m[K      receiver[01;31m[K-[m[K>setRestart();
+[35m[Kmain.cpp[m[K[36m[K:[m[K	  device[01;31m[K-[m[K>closeDevice();*/
+[35m[Kmain.cpp[m[K[36m[K:[m[K  //	  video[01;31m[K-[m[K>beginScene(true, true, irr::video::SColor(0,200,200,200));
+[35m[Kmain.cpp[m[K[36m[K:[m[K  if (game[01;31m[K-[m[K>getState() == Game::MENU)
+[35m[Kmain.cpp[m[K[36m[K:[m[K      game[01;31m[K-[m[K>createMap(receiver[01;31m[K-[m[K>getX(), receiver[01;31m[K-[m[K>getY(), 0, receiver[01;31m[K-[m[K>getRandom());
+[35m[Kmain.cpp[m[K[36m[K:[m[K      game[01;31m[K-[m[K>setState(Game::NO);
+[35m[Kmain.cpp[m[K[36m[K:[m[K  video[01;31m[K-[m[K>beginScene(true, true, irr::video::SColor(255,113,0,255));
+[35m[Kmain.cpp[m[K[36m[K:[m[K  game[01;31m[K-[m[K>effect[01;31m[K-[m[K>update();
+[35m[Kmain.cpp[m[K[36m[K:[m[K  env[01;31m[K-[m[K>drawAll();
+[35m[Kmain.cpp[m[K[36m[K:[m[K  video[01;31m[K-[m[K>endScene(); 
+[35m[Kmain.cpp[m[K[36m[K:[m[K      video = device[01;31m[K-[m[K>getVideoDriver();
+[35m[Kmain.cpp[m[K[36m[K:[m[K      smgr = device[01;31m[K-[m[K>getSceneManager();
+[35m[Kmain.cpp[m[K[36m[K:[m[K      env = device[01;31m[K-[m[K>getGUIEnvironment();
+[35m[Kmain.cpp[m[K[36m[K:[m[K      if ((font = env[01;31m[K-[m[K>getFont("font/artoffighting.xml")) == NULL)
+[35m[Kmain.cpp[m[K[36m[K:[m[K  device[01;31m[K-[m[K>setEventReceiver(&receiver);
+[35m[Kmain.cpp[m[K[36m[K:[m[K  return ([01;31m[K-[m[K1); 
+[35m[Kmain.cpp[m[K[36m[K:[m[K  int lastFPS = [01;31m[K-[m[K1;
+[35m[Kmain.cpp[m[K[36m[K:[m[K  u32 then = device[01;31m[K-[m[K>getTimer()[01;31m[K-[m[K>getTime();
+[35m[Kmain.cpp[m[K[36m[K:[m[K      if ((font = env[01;31m[K-[m[K>getFont("font/artoffighting.xml")) == NULL)
+[35m[Kmain.cpp[m[K[36m[K:[m[K  while (device[01;31m[K-[m[K>run() && device)
+[35m[Kmain.cpp[m[K[36m[K:[m[K	      env[01;31m[K-[m[K>clear();
+[35m[Kmain.cpp[m[K[36m[K:[m[K	      device[01;31m[K-[m[K>getTimer()[01;31m[K-[m[K>start();
+[35m[Kmain.cpp[m[K[36m[K:[m[K	    device[01;31m[K-[m[K>closeDevice();
+[35m[Kmain.cpp[m[K[36m[K:[m[K	  const irr::u32 now = device[01;31m[K-[m[K>getTimer()[01;31m[K-[m[K>getTime();
+[35m[Kmain.cpp[m[K[36m[K:[m[K	  const irr::f32 frameDeltaTime = (irr::f32)(now [01;31m[K-[m[K then) / 1000.f; // Time in seconds
+[35m[Kmain.cpp[m[K[36m[K:[m[K	      startTime = device[01;31m[K-[m[K>getTimer()[01;31m[K-[m[K>getTime();
+[35m[Kmain.cpp[m[K[36m[K:[m[K	      device[01;31m[K-[m[K>getTimer()[01;31m[K-[m[K>start();
+[35m[Kmain.cpp[m[K[36m[K:[m[K	  if (game.getState() == Game::READY && now [01;31m[K-[m[K startTime > 3000)
+[35m[Kmain.cpp[m[K[36m[K:[m[K	  if (game.getState() == Game::GO && now [01;31m[K-[m[K startTime > 4500)
+[35m[Kmain.cpp[m[K[36m[K:[m[K	      device[01;31m[K-[m[K>getTimer()[01;31m[K-[m[K>stop();
+[35m[Kmain.cpp[m[K[36m[K:[m[K	  video[01;31m[K-[m[K>beginScene(true, true, irr::video::SColor(255,113,0,255));
+[35m[Kmain.cpp[m[K[36m[K:[m[K	  game.effect[01;31m[K-[m[K>update();
+[35m[Kmain.cpp[m[K[36m[K:[m[K	  //env[01;31m[K-[m[K>drawAll();
+[35m[Kmain.cpp[m[K[36m[K:[m[K	  //text[01;31m[K-[m[K>draw();
+[35m[Kmain.cpp[m[K[36m[K:[m[K	  if (oldFps != video[01;31m[K-[m[K>getFPS())
+[35m[Kmain.cpp[m[K[36m[K:[m[K	      windowCaption += video[01;31m[K-[m[K>getFPS();
+[35m[Kmain.cpp[m[K[36m[K:[m[K	      //device[01;31m[K-[m[K>setWindowCaption(windowCaption.c_str());
+[35m[Kmain.cpp[m[K[36m[K:[m[K	      oldFps = video[01;31m[K-[m[K>getFPS();
+[35m[Kmain.cpp[m[K[36m[K:[m[K	  font[01;31m[K-[m[K>draw(windowCaption, irr::core::recti(0, 0, 0, 0), irr::video::SColor(255, 248, 216, 56));
+[35m[Kmain.cpp[m[K[36m[K:[m[K	    font[01;31m[K-[m[K>draw(L"READY ?", irr::core::recti(0, 0, screenSize.Width, screenSize.Height), irr::video::SColor(255, 248, 216, 56), true, true);
+[35m[Kmain.cpp[m[K[36m[K:[m[K	    font[01;31m[K-[m[K>draw(L"GO !", irr::core::recti(0, 0, screenSize.Width, screenSize.Height), irr::video::SColor(255, 248, 216, 56), true, true);
+[35m[Kmain.cpp[m[K[36m[K:[m[K            score._index[score._letter] [01;31m[K-[m[K= 1;
+[35m[Kmain.cpp[m[K[36m[K:[m[K            score._letter [01;31m[K-[m[K= 1;
+[35m[Kmain.cpp[m[K[36m[K:[m[K          device[01;31m[K-[m[K>getTimer()[01;31m[K-[m[K>stop();
+[35m[Kmain.cpp[m[K[36m[K:[m[K          font[01;31m[K-[m[K>draw(finalScoreName, irr::core::recti(0, 0, screenSize.Width, screenSize.Height), irr::video::SColor(255, 248, 216, 56), true, true);
+[35m[Kmain.cpp[m[K[36m[K:[m[K        font[01;31m[K-[m[K>draw(score._finalScoreName, irr::core::recti(0, 0, screenSize.Width, 200), irr::video::SColor(255, 248, 216, 56), true, true);
+[35m[Kmain.cpp[m[K[36m[K:[m[K          font[01;31m[K-[m[K>draw(score._finalScoreName, irr::core::recti(0, 200, screenSize.Width, screenSize.Height [01;31m[K-[m[K 200), irr::video::SColor(255, 248, 216, 56), true, true);
+[35m[Kmain.cpp[m[K[36m[K:[m[K	  video[01;31m[K-[m[K>endScene();
+[35m[Kmain.cpp[m[K[36m[K:[m[K    }//End of While (device[01;31m[K-[m[K>run())
+[35m[KSaveClass.cpp[m[K[36m[K:[m[K  blo = c.getObject()[01;31m[K-[m[K>getBlockType();
+Fichier binaire CreateMap.o correspondant
+[35m[KAI.cpp[m[K[36m[K:[m[K  Graph		mygraph(this[01;31m[K-[m[K>map);
+[35m[KAI.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>objectif = NULL;
+[35m[KAI.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>posi.X = me[01;31m[K-[m[K>getPosition().X;
+[35m[KAI.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>posi.Y = me[01;31m[K-[m[K>getPosition().Z;
+[35m[KAI.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>posi.X = (int)(posi.X / BLOCK_SIZE);
+[35m[KAI.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>posi.Y = (int)(posi.Y / BLOCK_SIZE);
+[35m[KAI.cpp[m[K[36m[K:[m[K  if (block[01;31m[K-[m[K>distance != BIG_DIST)
+[35m[KAI.cpp[m[K[36m[K:[m[K  if (block[01;31m[K-[m[K>distance > distance)
+[35m[KAI.cpp[m[K[36m[K:[m[K    block[01;31m[K-[m[K>distance = distance;
+[35m[KAI.cpp[m[K[36m[K:[m[K  if (objectif != NULL && objectif[01;31m[K-[m[K>distance < block[01;31m[K-[m[K>distance)
+[35m[KAI.cpp[m[K[36m[K:[m[K  if ((block[01;31m[K-[m[K>coord.X != posi.X &&
+[35m[KAI.cpp[m[K[36m[K:[m[K       block[01;31m[K-[m[K>coord.Y != posi.Y) ||
+[35m[KAI.cpp[m[K[36m[K:[m[K      (this[01;31m[K-[m[K>me[01;31m[K-[m[K>getBombRadius() + 1 < block[01;31m[K-[m[K>distance))
+[35m[KAI.cpp[m[K[36m[K:[m[K      	     graph[block[01;31m[K-[m[K>coord.X + block[01;31m[K-[m[K>coord.Y * length][01;31m[K-[m[K>links.begin();
+[35m[KAI.cpp[m[K[36m[K:[m[K      	   it != graph[block[01;31m[K-[m[K>coord.X + block[01;31m[K-[m[K>coord.Y * length][01;31m[K-[m[K>links.end(); ++it)
+[35m[KAI.cpp[m[K[36m[K:[m[K      	  canPutBomb(*it, block[01;31m[K-[m[K>distance + 1);
+[35m[KAI.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>posi.X = x;
+[35m[KAI.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>posi.Y = y;
+[35m[KAI.cpp[m[K[36m[K:[m[K  if (posi.X == nod[01;31m[K-[m[K>coord.X && posi.Y == nod[01;31m[K-[m[K>coord.Y [01;31m[K-[m[K 1)
+[35m[KAI.cpp[m[K[36m[K:[m[K  if (posi.X == nod[01;31m[K-[m[K>coord.X && posi.Y == nod[01;31m[K-[m[K>coord.Y + 1)
+[35m[KAI.cpp[m[K[36m[K:[m[K  if (posi.X == nod[01;31m[K-[m[K>coord.X [01;31m[K-[m[K 1 && posi.Y == nod[01;31m[K-[m[K>coord.Y)
+[35m[KAI.cpp[m[K[36m[K:[m[K  if (posi.X == nod[01;31m[K-[m[K>coord.X + 1 && posi.Y == nod[01;31m[K-[m[K>coord.Y)
+[35m[KAI.cpp[m[K[36m[K:[m[K  int		place = [01;31m[K-[m[K1;
+[35m[KAI.cpp[m[K[36m[K:[m[K  if (posi.X == coord[01;31m[K-[m[K>coord.X && posi.Y == coord[01;31m[K-[m[K>coord.Y)
+[35m[KAI.cpp[m[K[36m[K:[m[K  calculateDistances(graph[posi.X + (length * posi.Y)], &coord[01;31m[K-[m[K>coord);
+[35m[KAI.cpp[m[K[36m[K:[m[K  for (std::vector<Graph::node *>::iterator it = graph[posi.X + (length * posi.Y)][01;31m[K-[m[K>links.begin();
+[35m[KAI.cpp[m[K[36m[K:[m[K       it != graph[posi.X + (length * posi.Y)][01;31m[K-[m[K>links.end(); ++it)
+[35m[KAI.cpp[m[K[36m[K:[m[K      if (tmp[01;31m[K-[m[K>distance < min)
+[35m[KAI.cpp[m[K[36m[K:[m[K	  min = tmp[01;31m[K-[m[K>distance;
+[35m[KAI.cpp[m[K[36m[K:[m[K  if (i == [01;31m[K-[m[K1)
+[35m[KAI.cpp[m[K[36m[K:[m[K    return (getDir(graph[posi.X + (length * posi.Y)][01;31m[K-[m[K>links[place]));
+[35m[KAI.cpp[m[K[36m[K:[m[K  if (block[01;31m[K-[m[K>coord.X [01;31m[K-[m[K 1 >= 0 && 
+[35m[KAI.cpp[m[K[36m[K:[m[K      map[block[01;31m[K-[m[K>coord.X [01;31m[K-[m[K 1][block[01;31m[K-[m[K>coord.Y].getBlockType() != BlockType::EMPTY)
+[35m[KAI.cpp[m[K[36m[K:[m[K  if (block[01;31m[K-[m[K>coord.X + 1 < length &&
+[35m[KAI.cpp[m[K[36m[K:[m[K      map[block[01;31m[K-[m[K>coord.X + 1][block[01;31m[K-[m[K>coord.Y].getBlockType() != BlockType::EMPTY)
+[35m[KAI.cpp[m[K[36m[K:[m[K  if (block[01;31m[K-[m[K>coord.Y [01;31m[K-[m[K 1 >= 0 &&
+[35m[KAI.cpp[m[K[36m[K:[m[K      map[block[01;31m[K-[m[K>coord.X][block[01;31m[K-[m[K>coord.Y [01;31m[K-[m[K 1].getBlockType() != BlockType::EMPTY)
+[35m[KAI.cpp[m[K[36m[K:[m[K  if (block[01;31m[K-[m[K>coord.Y + 1 < width &&
+[35m[KAI.cpp[m[K[36m[K:[m[K      map[block[01;31m[K-[m[K>coord.X][block[01;31m[K-[m[K>coord.Y + 1].getBlockType() != BlockType::EMPTY)
+[35m[KAI.cpp[m[K[36m[K:[m[K  if (position[01;31m[K-[m[K>coord.X != goal[01;31m[K-[m[K>X || position[01;31m[K-[m[K>coord.Y != goal[01;31m[K-[m[K>Y || !isBlocked(position))
+[35m[KAI.cpp[m[K[36m[K:[m[K	     graph[position[01;31m[K-[m[K>coord.X + (position[01;31m[K-[m[K>coord.Y * length)][01;31m[K-[m[K>links.begin();
+[35m[KAI.cpp[m[K[36m[K:[m[K	   it != graph[position[01;31m[K-[m[K>coord.X + (position[01;31m[K-[m[K>coord.Y * length)][01;31m[K-[m[K>links.end(); ++it)
+[35m[KAI.cpp[m[K[36m[K:[m[K	  if (tmp[01;31m[K-[m[K>distance >= position[01;31m[K-[m[K>distance + 1)
+[35m[KAI.cpp[m[K[36m[K:[m[K	      tmp[01;31m[K-[m[K>distance = position[01;31m[K-[m[K>distance + 1;
+[35m[KGraph.cpp[m[K[36m[K:[m[K  graph[length * y + x][01;31m[K-[m[K>links.clear();
+[35m[KGraph.cpp[m[K[36m[K:[m[K  if (x [01;31m[K-[m[K 1 >= 0 && map[x [01;31m[K-[m[K 1][y].getBlockType() == BlockType::EMPTY)
+[35m[KGraph.cpp[m[K[36m[K:[m[K    graph[length * y + x][01;31m[K-[m[K>links.push_back(graph[length * y + x [01;31m[K-[m[K 1]);
+[35m[KGraph.cpp[m[K[36m[K:[m[K    graph[length * y + x][01;31m[K-[m[K>links.push_back(graph[length * y + x + 1]);
+[35m[KGraph.cpp[m[K[36m[K:[m[K  if (y [01;31m[K-[m[K 1 >= 0 && map[x][y [01;31m[K-[m[K 1].getBlockType() == BlockType::EMPTY)
+[35m[KGraph.cpp[m[K[36m[K:[m[K    graph[length * y + x][01;31m[K-[m[K>links.push_back(graph[length * (y [01;31m[K-[m[K 1) + x]);
+[35m[KGraph.cpp[m[K[36m[K:[m[K    graph[length * y + x][01;31m[K-[m[K>links.push_back(graph[length * (y + 1) + x]);
+[35m[KGraph.cpp[m[K[36m[K:[m[K		graph[length * y + x][01;31m[K-[m[K>dangerous = true;
+[35m[KGraph.cpp[m[K[36m[K:[m[K	      // 		<< graph[length * y + x][01;31m[K-[m[K>links.size() << std::endl;
+Fichier binaire Graph.o correspondant
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>up = NULL;
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>down = NULL;
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>right = NULL;
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>left = NULL;
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>effect = NULL;
+[35m[KItem.cpp[m[K[36m[K:[m[K  if (this[01;31m[K-[m[K>up != NULL)
+[35m[KItem.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>effect[01;31m[K-[m[K>removeShadowFromNode(this[01;31m[K-[m[K>up);
+[35m[KItem.cpp[m[K[36m[K:[m[K      //this[01;31m[K-[m[K>up[01;31m[K-[m[K>removeAll();
+[35m[KItem.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>up[01;31m[K-[m[K>remove();
+[35m[KItem.cpp[m[K[36m[K:[m[K  if (this[01;31m[K-[m[K>down != NULL)
+[35m[KItem.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>effect[01;31m[K-[m[K>removeShadowFromNode(this[01;31m[K-[m[K>down);
+[35m[KItem.cpp[m[K[36m[K:[m[K      //this[01;31m[K-[m[K>down[01;31m[K-[m[K>removeAll();
+[35m[KItem.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>down[01;31m[K-[m[K>remove();
+[35m[KItem.cpp[m[K[36m[K:[m[K  if (this[01;31m[K-[m[K>left != NULL)
+[35m[KItem.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>effect[01;31m[K-[m[K>removeShadowFromNode(this[01;31m[K-[m[K>left);
+[35m[KItem.cpp[m[K[36m[K:[m[K      //this[01;31m[K-[m[K>left[01;31m[K-[m[K>removeAll();
+[35m[KItem.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>left[01;31m[K-[m[K>remove();
+[35m[KItem.cpp[m[K[36m[K:[m[K  if (this[01;31m[K-[m[K>right != NULL)
+[35m[KItem.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>effect[01;31m[K-[m[K>removeShadowFromNode(this[01;31m[K-[m[K>right);
+[35m[KItem.cpp[m[K[36m[K:[m[K      //this[01;31m[K-[m[K>right[01;31m[K-[m[K>removeAll();
+[35m[KItem.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>right[01;31m[K-[m[K>remove();
+[35m[KItem.cpp[m[K[36m[K:[m[K  if (this[01;31m[K-[m[K>height != NULL)
+[35m[KItem.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>effect[01;31m[K-[m[K>removeShadowFromNode(this[01;31m[K-[m[K>height);
+[35m[KItem.cpp[m[K[36m[K:[m[K      //this[01;31m[K-[m[K>height[01;31m[K-[m[K>removeAll();
+[35m[KItem.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>height[01;31m[K-[m[K>remove();
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>effect = effect;
+[35m[KItem.cpp[m[K[36m[K:[m[K  SceneManager *smgr = this[01;31m[K-[m[K>effect[01;31m[K-[m[K>getIrrlichtDevice()[01;31m[K-[m[K>getSceneManager();
+[35m[KItem.cpp[m[K[36m[K:[m[K  VideoDriver* video = this[01;31m[K-[m[K>effect[01;31m[K-[m[K>getIrrlichtDevice()[01;31m[K-[m[K>getVideoDriver();
+[35m[KItem.cpp[m[K[36m[K:[m[K  //[01;31m[K-[m[K[01;31m[K-[m[K[01;31m[K-[m[K[01;31m[K-[m[KHEIGHT[01;31m[K-[m[K[01;31m[K-[m[K[01;31m[K-[m[K[01;31m[K-[m[K[01;31m[K-[m[K
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>height = smgr[01;31m[K-[m[K>addParticleSystemSceneNode(false);
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>effect[01;31m[K-[m[K>addShadowToNode(this[01;31m[K-[m[K>height, EFT_NONE, ESM_EXCLUDE);
+[35m[KItem.cpp[m[K[36m[K:[m[K  ParticleEmitter* em = this[01;31m[K-[m[K>height[01;31m[K-[m[K>createSphereEmitter(vector3df(1, 3, 1),			// emitter size
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>height[01;31m[K-[m[K>setEmitter(em); // this grabs the emitter
+[35m[KItem.cpp[m[K[36m[K:[m[K  em[01;31m[K-[m[K>drop(); // so we can drop it here without deleting it
+[35m[KItem.cpp[m[K[36m[K:[m[K  //irr::scene::IParticleAffector* affector = this[01;31m[K-[m[K>height[01;31m[K-[m[K>createFadeOutParticleAffector();
+[35m[KItem.cpp[m[K[36m[K:[m[K  //this[01;31m[K-[m[K>height[01;31m[K-[m[K>addAffector(affector); // same goes for the affector
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>height[01;31m[K-[m[K>setPosition(position);
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>height[01;31m[K-[m[K>setMaterialFlag(irr::video::EMF_LIGHTING, false);
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>height[01;31m[K-[m[K>setMaterialFlag(irr::video::EMF_ZWRITE_ENABLE, false);
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>height[01;31m[K-[m[K>setMaterialTexture(0, texture);
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>height[01;31m[K-[m[K>setMaterialType(irr::video::EMT_TRANSPARENT_ADD_COLOR);
+[35m[KItem.cpp[m[K[36m[K:[m[K  //[01;31m[K-[m[K[01;31m[K-[m[K[01;31m[K-[m[K[01;31m[K-[m[KUP[01;31m[K-[m[K[01;31m[K-[m[K[01;31m[K-[m[K[01;31m[K-[m[K[01;31m[K-[m[K
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>up = smgr[01;31m[K-[m[K>addParticleSystemSceneNode(false);
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>effect[01;31m[K-[m[K>addShadowToNode(this[01;31m[K-[m[K>up, EFT_NONE, ESM_EXCLUDE);
+[35m[KItem.cpp[m[K[36m[K:[m[K  em = this[01;31m[K-[m[K>up[01;31m[K-[m[K>createBoxEmitter(aabbox3d([01;31m[K-[m[K3,0,[01;31m[K-[m[K3,3,1,3),	// emitter size
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>up[01;31m[K-[m[K>setEmitter(em); // this grabs the emitter
+[35m[KItem.cpp[m[K[36m[K:[m[K  em[01;31m[K-[m[K>drop(); // so we can drop it here without deleting it
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>up[01;31m[K-[m[K>setPosition(position);
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>up[01;31m[K-[m[K>setMaterialFlag(irr::video::EMF_LIGHTING, false);
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>up[01;31m[K-[m[K>setMaterialFlag(irr::video::EMF_ZWRITE_ENABLE, false);
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>up[01;31m[K-[m[K>setMaterialTexture(0, texture);
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>up[01;31m[K-[m[K>setMaterialType(irr::video::EMT_TRANSPARENT_ADD_COLOR);
+[35m[KItem.cpp[m[K[36m[K:[m[K  //[01;31m[K-[m[K[01;31m[K-[m[K[01;31m[K-[m[K[01;31m[K-[m[KDOWN[01;31m[K-[m[K[01;31m[K-[m[K[01;31m[K-[m[K[01;31m[K-[m[K[01;31m[K-[m[K
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>down = smgr[01;31m[K-[m[K>addParticleSystemSceneNode(false);
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>effect[01;31m[K-[m[K>addShadowToNode(this[01;31m[K-[m[K>down, EFT_NONE, ESM_EXCLUDE);
+[35m[KItem.cpp[m[K[36m[K:[m[K  em = this[01;31m[K-[m[K>down[01;31m[K-[m[K>createBoxEmitter(aabbox3d([01;31m[K-[m[K3,0,[01;31m[K-[m[K3,3,1,3),	// emitter size
+[35m[KItem.cpp[m[K[36m[K:[m[K				    vector3df(0, 0, [01;31m[K-[m[K0.2),			// initial direction
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>down[01;31m[K-[m[K>setEmitter(em); // this grabs the emitter
+[35m[KItem.cpp[m[K[36m[K:[m[K  em[01;31m[K-[m[K>drop(); // so we can drop it here without deleting it
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>down[01;31m[K-[m[K>setPosition(position);
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>down[01;31m[K-[m[K>setMaterialFlag(irr::video::EMF_LIGHTING, false);
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>down[01;31m[K-[m[K>setMaterialFlag(irr::video::EMF_ZWRITE_ENABLE, false);
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>down[01;31m[K-[m[K>setMaterialTexture(0, texture);
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>down[01;31m[K-[m[K>setMaterialType(irr::video::EMT_TRANSPARENT_ADD_COLOR);
+[35m[KItem.cpp[m[K[36m[K:[m[K  //[01;31m[K-[m[K[01;31m[K-[m[K[01;31m[K-[m[K[01;31m[K-[m[KLEFT[01;31m[K-[m[K[01;31m[K-[m[K[01;31m[K-[m[K[01;31m[K-[m[K[01;31m[K-[m[K
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>left = smgr[01;31m[K-[m[K>addParticleSystemSceneNode(false);
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>effect[01;31m[K-[m[K>addShadowToNode(this[01;31m[K-[m[K>left, EFT_NONE, ESM_EXCLUDE);
+[35m[KItem.cpp[m[K[36m[K:[m[K  em = this[01;31m[K-[m[K>left[01;31m[K-[m[K>createBoxEmitter(aabbox3d([01;31m[K-[m[K3,0,[01;31m[K-[m[K3,3,1,3),	// emitter size
+[35m[KItem.cpp[m[K[36m[K:[m[K				    vector3df([01;31m[K-[m[K0.2, 0, 0),			// initial direction
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>left[01;31m[K-[m[K>setEmitter(em); // this grabs the emitter
+[35m[KItem.cpp[m[K[36m[K:[m[K  em[01;31m[K-[m[K>drop(); // so we can drop it here without deleting it
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>left[01;31m[K-[m[K>setPosition(position);
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>left[01;31m[K-[m[K>setMaterialFlag(irr::video::EMF_LIGHTING, false);
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>left[01;31m[K-[m[K>setMaterialFlag(irr::video::EMF_ZWRITE_ENABLE, false);
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>left[01;31m[K-[m[K>setMaterialTexture(0, texture);
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>left[01;31m[K-[m[K>setMaterialType(irr::video::EMT_TRANSPARENT_ADD_COLOR);
+[35m[KItem.cpp[m[K[36m[K:[m[K  //[01;31m[K-[m[K[01;31m[K-[m[K[01;31m[K-[m[K[01;31m[K-[m[KRIGHT[01;31m[K-[m[K[01;31m[K-[m[K[01;31m[K-[m[K[01;31m[K-[m[K[01;31m[K-[m[K
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>right = smgr[01;31m[K-[m[K>addParticleSystemSceneNode(false);
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>effect[01;31m[K-[m[K>addShadowToNode(this[01;31m[K-[m[K>right, EFT_NONE, ESM_EXCLUDE);
+[35m[KItem.cpp[m[K[36m[K:[m[K  em = this[01;31m[K-[m[K>right[01;31m[K-[m[K>createBoxEmitter(aabbox3d([01;31m[K-[m[K3,0,[01;31m[K-[m[K3,3,1,3),	// emitter size
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>right[01;31m[K-[m[K>setEmitter(em); // this grabs the emitter
+[35m[KItem.cpp[m[K[36m[K:[m[K  em[01;31m[K-[m[K>drop(); // so we can drop it here without deleting it
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>right[01;31m[K-[m[K>setPosition(position);
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>right[01;31m[K-[m[K>setMaterialFlag(irr::video::EMF_LIGHTING, false);
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>right[01;31m[K-[m[K>setMaterialFlag(irr::video::EMF_ZWRITE_ENABLE, false);
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>right[01;31m[K-[m[K>setMaterialTexture(0, texture);
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>right[01;31m[K-[m[K>setMaterialType(irr::video::EMT_TRANSPARENT_ADD_COLOR);
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>x = x;
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>y = y;
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>blockType = BlockType::EMPTY;
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>effect = effect;
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>texture = texture;
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>mesh = mesh;
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>smgr = smgr;
+[35m[KItem.cpp[m[K[36m[K:[m[K  return (this[01;31m[K-[m[K>x);
+[35m[KItem.cpp[m[K[36m[K:[m[K  return (this[01;31m[K-[m[K>y);
+[35m[KItem.cpp[m[K[36m[K:[m[K  return (this[01;31m[K-[m[K>blockType);
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>model = smgr[01;31m[K-[m[K>addMeshSceneNode(mesh[01;31m[K-[m[K>getMesh(BlockType::BOMB), 0, [01;31m[K-[m[K1,
+[35m[KItem.cpp[m[K[36m[K:[m[K  effect[01;31m[K-[m[K>addShadowToNode(this[01;31m[K-[m[K>model, EFT_16PCF, ESM_BOTH);
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>model[01;31m[K-[m[K>setMaterialFlag(irr::video::EMF_LIGHTING, false);
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>model[01;31m[K-[m[K>setScale(vector3df(1.0, 1.0, 1.0));
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>timer = timer;
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>player = player;
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>exploded = false;
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>blockType = BlockType::BOMB;
+[35m[KItem.cpp[m[K[36m[K:[m[K  if (this[01;31m[K-[m[K>model != NULL)
+[35m[KItem.cpp[m[K[36m[K:[m[K      effect[01;31m[K-[m[K>removeShadowFromNode(this[01;31m[K-[m[K>model);
+[35m[KItem.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>model[01;31m[K-[m[K>remove();
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>blockType = BlockType::EMPTY;
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>exploded = true;
+[35m[KItem.cpp[m[K[36m[K:[m[K  explosion.setExplosion(this[01;31m[K-[m[K>model[01;31m[K-[m[K>getPosition(), upSize, downSize, leftSize, rightSize, this[01;31m[K-[m[K>effect, this[01;31m[K-[m[K>texture[01;31m[K-[m[K>getTexture(BlockType::TPARTICULE1));
+[35m[KItem.cpp[m[K[36m[K:[m[K    this[01;31m[K-[m[K>explosionCoorList.push_back(pos);
+[35m[KItem.cpp[m[K[36m[K:[m[K	this[01;31m[K-[m[K>useShadow = useShadow;
+[35m[KItem.cpp[m[K[36m[K:[m[K	this[01;31m[K-[m[K>cube = smgr[01;31m[K-[m[K>addCubeSceneNode(BLOCK_SIZE);
+[35m[KItem.cpp[m[K[36m[K:[m[K    if (this[01;31m[K-[m[K>useShadow == true)
+[35m[KItem.cpp[m[K[36m[K:[m[K    	effect[01;31m[K-[m[K>addShadowToNode(cube, EFT_16PCF, ESM_CAST);
+[35m[KItem.cpp[m[K[36m[K:[m[K    	cube[01;31m[K-[m[K>setPosition(vector3df(x * BLOCK_SIZE + BLOCK_SIZE / 2, BLOCK_SIZE / 4, y * BLOCK_SIZE + BLOCK_SIZE / 2));
+[35m[KItem.cpp[m[K[36m[K:[m[K    	cube[01;31m[K-[m[K>setPosition(vector3df(x * BLOCK_SIZE + BLOCK_SIZE / 2, BLOCK_SIZE / 2, y * BLOCK_SIZE + BLOCK_SIZE / 2));
+[35m[KItem.cpp[m[K[36m[K:[m[K      cube[01;31m[K-[m[K>setMaterialFlag(irr::video::EMF_BILINEAR_FILTER, true);
+[35m[KItem.cpp[m[K[36m[K:[m[K      cube[01;31m[K-[m[K>setMaterialFlag(irr::video::EMF_BILINEAR_FILTER, false);
+[35m[KItem.cpp[m[K[36m[K:[m[K        cube[01;31m[K-[m[K>setMaterialFlag(irr::video::EMF_LIGHTING, false); //Suprime flou des textures
+[35m[KItem.cpp[m[K[36m[K:[m[K            cube[01;31m[K-[m[K>setMaterialTexture(0, texture[01;31m[K-[m[K>getTexture(BlockType::THARD));
+[35m[KItem.cpp[m[K[36m[K:[m[K          	cube[01;31m[K-[m[K>setMaterialTexture(0, texture[01;31m[K-[m[K>getTexture(BlockType::TEND));
+[35m[KItem.cpp[m[K[36m[K:[m[K          cube[01;31m[K-[m[K>setMaterialTexture(0, texture[01;31m[K-[m[K>getTexture(BlockType::TLIGHT));
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>blockType = block;
+[35m[KItem.cpp[m[K[36m[K:[m[K  if (this[01;31m[K-[m[K>cube != NULL)
+[35m[KItem.cpp[m[K[36m[K:[m[K      effect[01;31m[K-[m[K>removeShadowFromNode(this[01;31m[K-[m[K>cube);
+[35m[KItem.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>cube[01;31m[K-[m[K>remove();
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>blockType = BlockType::EMPTY;
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>effect = effect;
+[35m[KItem.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>model = smgr[01;31m[K-[m[K>addMeshSceneNode(mesh[01;31m[K-[m[K>getMesh(BlockType::SPEED_ITEM), 0, [01;31m[K-[m[K1,
+[35m[KItem.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>blockType = BlockType::SPEED_ITEM;
+[35m[KItem.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>model[01;31m[K-[m[K>setScale(vector3df(13.0, 13.0, 13.0));
+[35m[KItem.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>model = smgr[01;31m[K-[m[K>addMeshSceneNode(mesh[01;31m[K-[m[K>getMesh(BlockType::BOMB_ITEM), 0, [01;31m[K-[m[K1,
+[35m[KItem.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>blockType = BlockType::BOMB_ITEM;
+[35m[KItem.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>model[01;31m[K-[m[K>setScale(vector3df(1.0, 1.0, 1.0));
+[35m[KItem.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>model = smgr[01;31m[K-[m[K>addMeshSceneNode(mesh[01;31m[K-[m[K>getMesh(BlockType::RADIUS_ITEM), 0, [01;31m[K-[m[K1,
+[35m[KItem.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>blockType = BlockType::RADIUS_ITEM;
+[35m[KItem.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>model[01;31m[K-[m[K>setScale(vector3df(4, 4, 4));
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>animator = smgr[01;31m[K-[m[K>createRotationAnimator(vector3df(0,1,0));
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>model[01;31m[K-[m[K>addAnimator(this[01;31m[K-[m[K>animator);
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>model[01;31m[K-[m[K>setMaterialFlag(irr::video::EMF_LIGHTING, false);
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>effect[01;31m[K-[m[K>addShadowToNode(this[01;31m[K-[m[K>model, EFT_16PCF, ESM_CAST);
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>socle = smgr[01;31m[K-[m[K>addMeshSceneNode(mesh[01;31m[K-[m[K>getMesh(BlockType::SOCLE), 0, [01;31m[K-[m[K1,
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>socle[01;31m[K-[m[K>setMaterialFlag(irr::video::EMF_LIGHTING, false);
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>effect[01;31m[K-[m[K>addShadowToNode(this[01;31m[K-[m[K>socle, EFT_16PCF, ESM_RECEIVE);
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>socle[01;31m[K-[m[K>setScale(vector3df(3.0, 3.0, 3.0));
+[35m[KItem.cpp[m[K[36m[K:[m[K  if (this[01;31m[K-[m[K>model != NULL)
+[35m[KItem.cpp[m[K[36m[K:[m[K      if (this[01;31m[K-[m[K>animator != NULL)
+[35m[KItem.cpp[m[K[36m[K:[m[K	this[01;31m[K-[m[K>animator[01;31m[K-[m[K>drop();
+[35m[KItem.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>effect[01;31m[K-[m[K>removeShadowFromNode(this[01;31m[K-[m[K>model);
+[35m[KItem.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>model[01;31m[K-[m[K>remove();
+[35m[KItem.cpp[m[K[36m[K:[m[K  if (this[01;31m[K-[m[K>socle != NULL)
+[35m[KItem.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>effect[01;31m[K-[m[K>removeShadowFromNode(this[01;31m[K-[m[K>socle);
+[35m[KItem.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>socle[01;31m[K-[m[K>remove();
+[35m[KItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>blockType = BlockType::EMPTY;
+[35m[KException.cpp[m[K[36m[K:[m[K  device[01;31m[K-[m[K>closeDevice();
+[35m[KException.cpp[m[K[36m[K:[m[K  exit([01;31m[K-[m[K1);
+[35m[KException.cpp[m[K[36m[K:[m[K  exit([01;31m[K-[m[K1);
+[35m[KException.cpp[m[K[36m[K:[m[K  device[01;31m[K-[m[K>closeDevice();
+[35m[KException.cpp[m[K[36m[K:[m[K  exit([01;31m[K-[m[K1);
+[35m[KException.cpp[m[K[36m[K:[m[K  exit([01;31m[K-[m[K1);
+Fichier binaire Entity.o correspondant
+Fichier binaire Binding.o correspondant
+Fichier binaire Bot.o correspondant
+Fichier binaire SoundManager.o correspondant
+Fichier binaire Pack.o correspondant
+[35m[KEventReceiver.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>device = dev;
+[35m[KEventReceiver.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>video = vid;
+[35m[KEventReceiver.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>inGame = false;
+[35m[KEventReceiver.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>restart = false;
+[35m[KEventReceiver.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>soundManager = sdmr;
+[35m[KEventReceiver.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>save = 0;
+[35m[KEventReceiver.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>load = 0;
+[35m[KBinding.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>upKey = upKey;
+[35m[KBinding.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>downKey = downKey;
+[35m[KBinding.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>leftKey = leftKey;
+[35m[KBinding.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>rightKey = rightKey;
+[35m[KBinding.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>actionKey = actionKey;
+[35m[KBinding.cpp[m[K[36m[K:[m[K  return (this[01;31m[K-[m[K>upKey);
+[35m[KBinding.cpp[m[K[36m[K:[m[K  return (this[01;31m[K-[m[K>downKey);
+[35m[KBinding.cpp[m[K[36m[K:[m[K  return (this[01;31m[K-[m[K>leftKey);
+[35m[KBinding.cpp[m[K[36m[K:[m[K  return (this[01;31m[K-[m[K>rightKey);
+[35m[KBinding.cpp[m[K[36m[K:[m[K  return (this[01;31m[K-[m[K>actionKey);
+[35m[KPlayer.cpp[m[K[36m[K:[m[K  return (this[01;31m[K-[m[K>keys);
+[35m[KPlayer.cpp[m[K[36m[K:[m[K  if (receiver[01;31m[K-[m[K>IsKeyDown(keys.action()))
+[35m[KPlayer.cpp[m[K[36m[K:[m[K  if (receiver[01;31m[K-[m[K>IsKeyDown(keys.up()))
+[35m[KPlayer.cpp[m[K[36m[K:[m[K  else if (receiver[01;31m[K-[m[K>IsKeyDown(keys.down()))
+[35m[KPlayer.cpp[m[K[36m[K:[m[K  if (receiver[01;31m[K-[m[K>IsKeyDown(keys.left()))
+[35m[KPlayer.cpp[m[K[36m[K:[m[K  else if(receiver[01;31m[K-[m[K>IsKeyDown(keys.right()))
+Fichier binaire Game.o correspondant
+Fichier binaire Exception.o correspondant
+[35m[KUserInterface.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>env = device[01;31m[K-[m[K>getGUIEnvironment();
+[35m[KUserInterface.cpp[m[K[36m[K:[m[K  if (this[01;31m[K-[m[K>env == NULL)
+[35m[KUserInterface.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>font = this[01;31m[K-[m[K>env[01;31m[K-[m[K>getFont("font/MenuFont.xml");
+[35m[KUserInterface.cpp[m[K[36m[K:[m[K  if (this[01;31m[K-[m[K>font == NULL)
+[35m[KUserInterface.cpp[m[K[36m[K:[m[K    this[01;31m[K-[m[K>env[01;31m[K-[m[K>getSkin()[01;31m[K-[m[K>setFont(this[01;31m[K-[m[K>font);
+[35m[KUserInterface.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>env[01;31m[K-[m[K>addImage(video[01;31m[K-[m[K>getTexture("media/background.png"), 
+[35m[KUserInterface.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>env[01;31m[K-[m[K>addImage(video[01;31m[K-[m[K>getTexture("media/battlefest_logo.png"),
+[35m[KUserInterface.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>drawLogo(video);
+[35m[KUserInterface.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>env[01;31m[K-[m[K>addButton(irr::core::rect<irr::s32>(860,650,1060,650 + 32), 0, GUI_ID_BACK_BUTTON,
+[35m[KUserInterface.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>drawLogo(video);
+[35m[KUserInterface.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>env[01;31m[K-[m[K>addButton(irr::core::rect<irr::s32>(860,510,1060,510 + 32), 0, GUI_ID_PLAY_BUTTON,
+[35m[KUserInterface.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>env[01;31m[K-[m[K>addButton(irr::core::rect<irr::s32>(860,550,1060,550 + 32), 0, GUI_ID_OPTION_BUTTON,
+[35m[KUserInterface.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>env[01;31m[K-[m[K>addButton(irr::core::rect<irr::s32>(860,610,1060,610 + 32), 0, GUI_ID_QUIT_BUTTON,
+[35m[KUserInterface.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>drawLogo(video);
+[35m[KUserInterface.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>env[01;31m[K-[m[K>addButton(irr::core::rect<irr::s32>(860,470,1060,470 + 32), 0, GUI_ID_MAIN_BUTTON,
+[35m[KUserInterface.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>env[01;31m[K-[m[K>addButton(irr::core::rect<irr::s32>(860,510,1060,510 + 32), 0, GUI_ID_RESUME_BUTTON,
+[35m[KUserInterface.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>env[01;31m[K-[m[K>addButton(irr::core::rect<irr::s32>(860,550,1060,550 + 32), 0, GUI_ID_SAVE_BUTTON,
+[35m[KUserInterface.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>env[01;31m[K-[m[K>addButton(irr::core::rect<irr::s32>(860,590,1060,590 + 32), 0, GUI_ID_LOAD_BUTTON,
+[35m[KUserInterface.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>env[01;31m[K-[m[K>addButton(irr::core::rect<irr::s32>(860,650,1060,650 + 32), 0, GUI_ID_QUIT_BUTTON,
+[35m[KUserInterface.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>drawLogo(video);
+[35m[KUserInterface.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>env[01;31m[K-[m[K>addButton(irr::core::rect<irr::s32>(860,510,1060,510 + 32), 0, GUI_ID_FIRST_BUTTON,
+[35m[KUserInterface.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>env[01;31m[K-[m[K>addButton(irr::core::rect<irr::s32>(860,550,1060,550 + 32), 0, GUI_ID_SECOND_BUTTON,
+[35m[KUserInterface.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>env[01;31m[K-[m[K>addButton(irr::core::rect<irr::s32>(860,590,1060,590 + 32), 0, GUI_ID_THIRD_BUTTON,
+[35m[KUserInterface.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>env[01;31m[K-[m[K>addButton(irr::core::rect<irr::s32>(860,650,1060,650 + 32), 0, GUI_ID_RETURN_BUTTON,
+[35m[KUserInterface.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>drawLogo(video);
+[35m[KUserInterface.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>env[01;31m[K-[m[K>addButton(irr::core::rect<irr::s32>(860,510,1060,510 + 32), 0, GUI_ID_FIRST_SAVE_BUTTON,
+[35m[KUserInterface.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>env[01;31m[K-[m[K>addButton(irr::core::rect<irr::s32>(860,550,1060,550 + 32), 0, GUI_ID_SECOND_SAVE_BUTTON,
+[35m[KUserInterface.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>env[01;31m[K-[m[K>addButton(irr::core::rect<irr::s32>(860,590,1060,590 + 32), 0, GUI_ID_THIRD_SAVE_BUTTON,
+[35m[KUserInterface.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>env[01;31m[K-[m[K>addButton(irr::core::rect<irr::s32>(860,650,1060,650 + 32), 0, GUI_ID_RETURN_BUTTON,
+[35m[KUserInterface.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>drawLogo(video);
+[35m[KUserInterface.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>env[01;31m[K-[m[K>addStaticText(L"number of players:",
+[35m[KUserInterface.cpp[m[K[36m[K:[m[K  irr::gui::IGUIScrollBar* players = this[01;31m[K-[m[K>env[01;31m[K-[m[K>addScrollBar(true, 
+[35m[KUserInterface.cpp[m[K[36m[K:[m[K  players[01;31m[K-[m[K>setMax(4);
+[35m[KUserInterface.cpp[m[K[36m[K:[m[K  players[01;31m[K-[m[K>setMin(0);
+[35m[KUserInterface.cpp[m[K[36m[K:[m[K  players[01;31m[K-[m[K>setPos(1);
+[35m[KUserInterface.cpp[m[K[36m[K:[m[K  players[01;31m[K-[m[K>setLargeStep(1);
+[35m[KUserInterface.cpp[m[K[36m[K:[m[K  players[01;31m[K-[m[K>setSmallStep(1);
+[35m[KUserInterface.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>env[01;31m[K-[m[K>addStaticText(L"field width:",
+[35m[KUserInterface.cpp[m[K[36m[K:[m[K  irr::gui::IGUIScrollBar* posX = this[01;31m[K-[m[K>env[01;31m[K-[m[K>addScrollBar(true, 
+[35m[KUserInterface.cpp[m[K[36m[K:[m[K  posX[01;31m[K-[m[K>setMax(29);
+[35m[KUserInterface.cpp[m[K[36m[K:[m[K  posX[01;31m[K-[m[K>setMin(9);
+[35m[KUserInterface.cpp[m[K[36m[K:[m[K  posX[01;31m[K-[m[K>setPos(29);
+[35m[KUserInterface.cpp[m[K[36m[K:[m[K  posX[01;31m[K-[m[K>setLargeStep(2);
+[35m[KUserInterface.cpp[m[K[36m[K:[m[K  posX[01;31m[K-[m[K>setSmallStep(2);
+[35m[KUserInterface.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>env[01;31m[K-[m[K>addStaticText(L"field height:",
+[35m[KUserInterface.cpp[m[K[36m[K:[m[K  irr::gui::IGUIScrollBar* posY = this[01;31m[K-[m[K>env[01;31m[K-[m[K>addScrollBar(true, 
+[35m[KUserInterface.cpp[m[K[36m[K:[m[K  posY[01;31m[K-[m[K>setMax(19);
+[35m[KUserInterface.cpp[m[K[36m[K:[m[K  posY[01;31m[K-[m[K>setMin(9);
+[35m[KUserInterface.cpp[m[K[36m[K:[m[K  posY[01;31m[K-[m[K>setPos(19);
+[35m[KUserInterface.cpp[m[K[36m[K:[m[K  posY[01;31m[K-[m[K>setLargeStep(2);
+[35m[KUserInterface.cpp[m[K[36m[K:[m[K  posY[01;31m[K-[m[K>setSmallStep(2);
+[35m[KUserInterface.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>env[01;31m[K-[m[K>addStaticText(L"block density:",
+[35m[KUserInterface.cpp[m[K[36m[K:[m[K  irr::gui::IGUIScrollBar* random = this[01;31m[K-[m[K>env[01;31m[K-[m[K>addScrollBar(true, 
+[35m[KUserInterface.cpp[m[K[36m[K:[m[K  random[01;31m[K-[m[K>setMax(10);
+[35m[KUserInterface.cpp[m[K[36m[K:[m[K  random[01;31m[K-[m[K>setMin(1);
+[35m[KUserInterface.cpp[m[K[36m[K:[m[K  random[01;31m[K-[m[K>setPos(3);
+[35m[KUserInterface.cpp[m[K[36m[K:[m[K  random[01;31m[K-[m[K>setLargeStep(1);
+[35m[KUserInterface.cpp[m[K[36m[K:[m[K  random[01;31m[K-[m[K>setSmallStep(1);
+[35m[KUserInterface.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>env[01;31m[K-[m[K>addButton(irr::core::rect<irr::s32>(860,750,1060,750 + 32), 0, GUI_ID_VALID_BUTTON,
+[35m[KUserInterface.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>Players = 1;
+[35m[KUserInterface.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>x = 29;
+[35m[KUserInterface.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>y = 19;
+[35m[KUserInterface.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>random = 3;
+[35m[KUserInterface.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>Players = nb;
+[35m[KUserInterface.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>x = pos;
+[35m[KUserInterface.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>y = pos;
+[35m[KUserInterface.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>random = rand;
+[35m[KUserInterface.cpp[m[K[36m[K:[m[K  return (this[01;31m[K-[m[K>Players);
+[35m[KUserInterface.cpp[m[K[36m[K:[m[K  return (this[01;31m[K-[m[K>x);
+[35m[KUserInterface.cpp[m[K[36m[K:[m[K  return (this[01;31m[K-[m[K>y);
+[35m[KUserInterface.cpp[m[K[36m[K:[m[K  return (this[01;31m[K-[m[K>random);
+[35m[KSaveclass.cpp[m[K[36m[K:[m[K  blo = c.getObject()[01;31m[K-[m[K>getBlockType();
+[35m[KSoundManager.cpp[m[K[36m[K:[m[K      int location = [01;31m[K-[m[K1;
+[35m[KSoundManager.cpp[m[K[36m[K:[m[K	  if (playingSounds.at(i).getStatus() != sf::Sound::Playing && location == [01;31m[K-[m[K1)
+[35m[KSoundManager.cpp[m[K[36m[K:[m[K      if (location != [01;31m[K-[m[K1)
+[35m[KSoundManager.cpp[m[K[36m[K:[m[K	  playingSounds.at(playingSounds.size() [01;31m[K-[m[K 1).setBuffer(Sounds[soundName]);
+[35m[KSoundManager.cpp[m[K[36m[K:[m[K	  playingSounds.at(playingSounds.size() [01;31m[K-[m[K 1).play();
+[35m[KSoundManager.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>music.openFromFile(battleMusics[rand() % battleMusics.size()]);
+[35m[KSoundManager.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>music.setLoop(true);
+[35m[KSoundManager.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>music.play();
+[35m[KSoundManager.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>music.openFromFile(music);
+[35m[KSoundManager.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>music.setLoop(true);
+[35m[KSoundManager.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>music.play();
+[35m[KSoundManager.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>music.pause();
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>up = NULL;
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>down = NULL;
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>right = NULL;
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>left = NULL;
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>effect = NULL;
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  if (this[01;31m[K-[m[K>up != NULL)
+[35m[KnewItem.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>effect[01;31m[K-[m[K>removeShadowFromNode(this[01;31m[K-[m[K>up);
+[35m[KnewItem.cpp[m[K[36m[K:[m[K      //this[01;31m[K-[m[K>up[01;31m[K-[m[K>removeAll();
+[35m[KnewItem.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>up[01;31m[K-[m[K>remove();
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  if (this[01;31m[K-[m[K>down != NULL)
+[35m[KnewItem.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>effect[01;31m[K-[m[K>removeShadowFromNode(this[01;31m[K-[m[K>down);
+[35m[KnewItem.cpp[m[K[36m[K:[m[K      //this[01;31m[K-[m[K>down[01;31m[K-[m[K>removeAll();
+[35m[KnewItem.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>down[01;31m[K-[m[K>remove();
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  if (this[01;31m[K-[m[K>left != NULL)
+[35m[KnewItem.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>effect[01;31m[K-[m[K>removeShadowFromNode(this[01;31m[K-[m[K>left);
+[35m[KnewItem.cpp[m[K[36m[K:[m[K      //this[01;31m[K-[m[K>left[01;31m[K-[m[K>removeAll();
+[35m[KnewItem.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>left[01;31m[K-[m[K>remove();
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  if (this[01;31m[K-[m[K>right != NULL)
+[35m[KnewItem.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>effect[01;31m[K-[m[K>removeShadowFromNode(this[01;31m[K-[m[K>right);
+[35m[KnewItem.cpp[m[K[36m[K:[m[K      //this[01;31m[K-[m[K>right[01;31m[K-[m[K>removeAll();
+[35m[KnewItem.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>right[01;31m[K-[m[K>remove();
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>effect = effect;
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  irr::scene::ISceneManager *smgr = this[01;31m[K-[m[K>effect[01;31m[K-[m[K>getIrrlichtDevice()[01;31m[K-[m[K>getSceneManager();
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  irr::video::IVideoDriver* video = this[01;31m[K-[m[K>effect[01;31m[K-[m[K>getIrrlichtDevice()[01;31m[K-[m[K>getVideoDriver();
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  //[01;31m[K-[m[K[01;31m[K-[m[K[01;31m[K-[m[K[01;31m[K-[m[KUP[01;31m[K-[m[K[01;31m[K-[m[K[01;31m[K-[m[K[01;31m[K-[m[K[01;31m[K-[m[K
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>up = smgr[01;31m[K-[m[K>addParticleSystemSceneNode(false);
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>effect[01;31m[K-[m[K>addShadowToNode(this[01;31m[K-[m[K>up, EFT_NONE, ESM_EXCLUDE);
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  irr::scene::IParticleEmitter* em = this[01;31m[K-[m[K>up[01;31m[K-[m[K>createBoxEmitter(irr::core::aabbox3d<f32>([01;31m[K-[m[K3,0,[01;31m[K-[m[K3,3,1,3),	// emitter size
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>up[01;31m[K-[m[K>setEmitter(em); // this grabs the emitter
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  em[01;31m[K-[m[K>drop(); // so we can drop it here without deleting it
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>up[01;31m[K-[m[K>setPosition(position);
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>up[01;31m[K-[m[K>setMaterialFlag(irr::video::EMF_LIGHTING, false);
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>up[01;31m[K-[m[K>setMaterialFlag(irr::video::EMF_ZWRITE_ENABLE, false);
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>up[01;31m[K-[m[K>setMaterialTexture(0, video[01;31m[K-[m[K>getTexture("media/particle2.png"));
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>up[01;31m[K-[m[K>setMaterialType(irr::video::EMT_TRANSPARENT_ADD_COLOR);
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  //[01;31m[K-[m[K[01;31m[K-[m[K[01;31m[K-[m[K[01;31m[K-[m[KDOWN[01;31m[K-[m[K[01;31m[K-[m[K[01;31m[K-[m[K[01;31m[K-[m[K[01;31m[K-[m[K
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>down = smgr[01;31m[K-[m[K>addParticleSystemSceneNode(false);
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>effect[01;31m[K-[m[K>addShadowToNode(this[01;31m[K-[m[K>down, EFT_NONE, ESM_EXCLUDE);
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  em = this[01;31m[K-[m[K>down[01;31m[K-[m[K>createBoxEmitter(irr::core::aabbox3d<f32>([01;31m[K-[m[K3,0,[01;31m[K-[m[K3,3,1,3),	// emitter size
+[35m[KnewItem.cpp[m[K[36m[K:[m[K				    vector3df(0, 0, [01;31m[K-[m[K0.2),			// initial direction
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>down[01;31m[K-[m[K>setEmitter(em); // this grabs the emitter
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  em[01;31m[K-[m[K>drop(); // so we can drop it here without deleting it
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>down[01;31m[K-[m[K>setPosition(position);
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>down[01;31m[K-[m[K>setMaterialFlag(irr::video::EMF_LIGHTING, false);
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>down[01;31m[K-[m[K>setMaterialFlag(irr::video::EMF_ZWRITE_ENABLE, false);
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>down[01;31m[K-[m[K>setMaterialTexture(0, video[01;31m[K-[m[K>getTexture("lib/irrlicht/media/fire.bmp"));
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>down[01;31m[K-[m[K>setMaterialType(irr::video::EMT_TRANSPARENT_ADD_COLOR);
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  //[01;31m[K-[m[K[01;31m[K-[m[K[01;31m[K-[m[K[01;31m[K-[m[KLEFT[01;31m[K-[m[K[01;31m[K-[m[K[01;31m[K-[m[K[01;31m[K-[m[K[01;31m[K-[m[K
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>left = smgr[01;31m[K-[m[K>addParticleSystemSceneNode(false);
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>effect[01;31m[K-[m[K>addShadowToNode(this[01;31m[K-[m[K>left, EFT_NONE, ESM_EXCLUDE);
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  em = this[01;31m[K-[m[K>left[01;31m[K-[m[K>createBoxEmitter(irr::core::aabbox3d<f32>([01;31m[K-[m[K3,0,[01;31m[K-[m[K3,3,1,3),	// emitter size
+[35m[KnewItem.cpp[m[K[36m[K:[m[K				    vector3df([01;31m[K-[m[K0.2, 0, 0),			// initial direction
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>left[01;31m[K-[m[K>setEmitter(em); // this grabs the emitter
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  em[01;31m[K-[m[K>drop(); // so we can drop it here without deleting it
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>left[01;31m[K-[m[K>setPosition(position);
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>left[01;31m[K-[m[K>setMaterialFlag(irr::video::EMF_LIGHTING, false);
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>left[01;31m[K-[m[K>setMaterialFlag(irr::video::EMF_ZWRITE_ENABLE, false);
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>left[01;31m[K-[m[K>setMaterialTexture(0, video[01;31m[K-[m[K>getTexture("lib/irrlicht/media/fire.bmp"));
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>left[01;31m[K-[m[K>setMaterialType(irr::video::EMT_TRANSPARENT_ADD_COLOR);
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  //[01;31m[K-[m[K[01;31m[K-[m[K[01;31m[K-[m[K[01;31m[K-[m[KRIGHT[01;31m[K-[m[K[01;31m[K-[m[K[01;31m[K-[m[K[01;31m[K-[m[K[01;31m[K-[m[K
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>right = smgr[01;31m[K-[m[K>addParticleSystemSceneNode(false);
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>effect[01;31m[K-[m[K>addShadowToNode(this[01;31m[K-[m[K>right, EFT_NONE, ESM_EXCLUDE);
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  em = this[01;31m[K-[m[K>right[01;31m[K-[m[K>createBoxEmitter(irr::core::aabbox3d<f32>([01;31m[K-[m[K3,0,[01;31m[K-[m[K3,3,1,3),	// emitter size
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>right[01;31m[K-[m[K>setEmitter(em); // this grabs the emitter
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  em[01;31m[K-[m[K>drop(); // so we can drop it here without deleting it
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>right[01;31m[K-[m[K>setPosition(position);
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>right[01;31m[K-[m[K>setMaterialFlag(irr::video::EMF_LIGHTING, false);
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>right[01;31m[K-[m[K>setMaterialFlag(irr::video::EMF_ZWRITE_ENABLE, false);
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>right[01;31m[K-[m[K>setMaterialTexture(0, video[01;31m[K-[m[K>getTexture("lib/irrlicht/media/fire.bmp"));
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>right[01;31m[K-[m[K>setMaterialType(irr::video::EMT_TRANSPARENT_ADD_COLOR);
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>model = model;
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  effect[01;31m[K-[m[K>addShadowToNode(this[01;31m[K-[m[K>model, EFT_16PCF, ESM_BOTH);
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>model[01;31m[K-[m[K>setScale(vector3df(1.0, 1.0, 1.0));
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>timer = timer;
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>player = player;
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>effect = effect;
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>exploded = false;
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  //this[01;31m[K-[m[K>model[01;31m[K-[m[K>setPosition(vector3df(x * BLOCK_SIZE + BLOCK_SIZE / 2, 0, y * BLOCK_SIZE + BLOCK_SIZE / 2));
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  if (this[01;31m[K-[m[K>model != NULL)
+[35m[KnewItem.cpp[m[K[36m[K:[m[K      effect[01;31m[K-[m[K>removeShadowFromNode(this[01;31m[K-[m[K>model);
+[35m[KnewItem.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>model[01;31m[K-[m[K>remove();
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  return (this[01;31m[K-[m[K>model[01;31m[K-[m[K>getPosition());
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  return (this[01;31m[K-[m[K>model[01;31m[K-[m[K>getPosition().X);
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  return (this[01;31m[K-[m[K>model[01;31m[K-[m[K>getPosition().Z);
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  return ((int)((this[01;31m[K-[m[K>model[01;31m[K-[m[K>getPosition().X) / BLOCK_SIZE));
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  return ((int)((this[01;31m[K-[m[K>model[01;31m[K-[m[K>getPosition().Z) / BLOCK_SIZE));
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>model[01;31m[K-[m[K>setPosition(newpos);
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>exploded = true;
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  explosion.setExplosion(this[01;31m[K-[m[K>model[01;31m[K-[m[K>getPosition(), upSize, downSize, leftSize, rightSize, this[01;31m[K-[m[K>effect);
+[35m[KnewItem.cpp[m[K[36m[K:[m[K    this[01;31m[K-[m[K>explosionCoorList.push_back(pos);
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>effect = effect;
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>model = model;
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>animator = this[01;31m[K-[m[K>effect[01;31m[K-[m[K>getIrrlichtDevice()[01;31m[K-[m[K>getSceneManager()[01;31m[K-[m[K>createRotationAnimator(vector3df(0,1,0));
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>model[01;31m[K-[m[K>addAnimator(this[01;31m[K-[m[K>animator);
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>socle = socle;
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>effect[01;31m[K-[m[K>addShadowToNode(this[01;31m[K-[m[K>model, EFT_16PCF, ESM_BOTH);
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>effect[01;31m[K-[m[K>addShadowToNode(this[01;31m[K-[m[K>socle, EFT_16PCF, ESM_BOTH);
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>model[01;31m[K-[m[K>setScale(vector3df(1.0, 1.0, 1.0));
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  if (this[01;31m[K-[m[K>model != NULL)
+[35m[KnewItem.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>animator[01;31m[K-[m[K>drop();
+[35m[KnewItem.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>effect[01;31m[K-[m[K>removeShadowFromNode(this[01;31m[K-[m[K>model);
+[35m[KnewItem.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>effect[01;31m[K-[m[K>removeShadowFromNode(this[01;31m[K-[m[K>socle);
+[35m[KnewItem.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>model[01;31m[K-[m[K>remove();
+[35m[KnewItem.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>socle[01;31m[K-[m[K>remove();
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  return (this[01;31m[K-[m[K>model[01;31m[K-[m[K>getPosition());
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  return (this[01;31m[K-[m[K>model[01;31m[K-[m[K>getPosition().X);
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  return (this[01;31m[K-[m[K>model[01;31m[K-[m[K>getPosition().Z);
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  return ((int)((this[01;31m[K-[m[K>model[01;31m[K-[m[K>getPosition().X) / BLOCK_SIZE));
+[35m[KnewItem.cpp[m[K[36m[K:[m[K  return ((int)((this[01;31m[K-[m[K>model[01;31m[K-[m[K>getPosition().Z) / BLOCK_SIZE));
+Fichier binaire Player.o correspondant
+Fichier binaire main.o correspondant
+Fichier binaire Map.o correspondant
+[35m[KPack.cpp[m[K[36m[K:[m[K      if ((texture[ID] = driver[01;31m[K-[m[K>getTexture(file.c_str())) == NULL)
+[35m[KPack.cpp[m[K[36m[K:[m[K	return (it[01;31m[K-[m[K>second);
+[35m[KPack.cpp[m[K[36m[K:[m[K      if ((mesh[ID] = smgr[01;31m[K-[m[K>getMesh(object.c_str())) == NULL)
+[35m[KPack.cpp[m[K[36m[K:[m[K      if ((animatedmesh[ID] = smgr[01;31m[K-[m[K>getMesh(object.c_str())) == NULL)
+[35m[KPack.cpp[m[K[36m[K:[m[K	return (it[01;31m[K-[m[K>second);
+[35m[KPack.cpp[m[K[36m[K:[m[K	return (it[01;31m[K-[m[K>second);
+Fichier binaire SaveClass.o correspondant
+Fichier binaire Item.o correspondant
+[35m[KMap.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>object = NULL;
+[35m[KMap.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>effect = effect;
+[35m[KMap.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>texture = texture;
+[35m[KMap.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>mesh = mesh;
+[35m[KMap.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>smgr = smgr;
+[35m[KMap.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>explosion = 0;
+[35m[KMap.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>block = block;
+[35m[KMap.cpp[m[K[36m[K:[m[K  BlockType::BlockType bloc = this[01;31m[K-[m[K>getBlockType();
+[35m[KMap.cpp[m[K[36m[K:[m[K    	this[01;31m[K-[m[K>isDangerous = NOT_WALKABLE;
+[35m[KMap.cpp[m[K[36m[K:[m[K  if (this[01;31m[K-[m[K>getDangerous() != dangerous)
+[35m[KMap.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>isDangerous = INTERESTING;
+[35m[KMap.cpp[m[K[36m[K:[m[K    	this[01;31m[K-[m[K>isDangerous = dangerous;
+[35m[KMap.cpp[m[K[36m[K:[m[K  return (this[01;31m[K-[m[K>isDangerous);
+[35m[KMap.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>object = object;
+[35m[KMap.cpp[m[K[36m[K:[m[K  return (this[01;31m[K-[m[K>object);
+[35m[KMap.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>block = block;
+[35m[KMap.cpp[m[K[36m[K:[m[K  if (this[01;31m[K-[m[K>object == NULL)
+[35m[KMap.cpp[m[K[36m[K:[m[K  return (this[01;31m[K-[m[K>object[01;31m[K-[m[K>getBlockType());
+[35m[KMap.cpp[m[K[36m[K:[m[K    this[01;31m[K-[m[K>setObject(new Item(x, y, this[01;31m[K-[m[K>texture, this[01;31m[K-[m[K>mesh, this[01;31m[K-[m[K>smgr, this[01;31m[K-[m[K>effect));
+[35m[KMap.cpp[m[K[36m[K:[m[K    this[01;31m[K-[m[K>setDangerous(INTERESTING);
+[35m[KMap.cpp[m[K[36m[K:[m[K    this[01;31m[K-[m[K>object = NULL;
+[35m[KMap.cpp[m[K[36m[K:[m[K  if (this[01;31m[K-[m[K>object != NULL)
+[35m[KMap.cpp[m[K[36m[K:[m[K      switch (this[01;31m[K-[m[K>object[01;31m[K-[m[K>getBlockType())
+[35m[KMap.cpp[m[K[36m[K:[m[K	  x = this[01;31m[K-[m[K>object[01;31m[K-[m[K>getX();
+[35m[KMap.cpp[m[K[36m[K:[m[K	  y = this[01;31m[K-[m[K>object[01;31m[K-[m[K>getY();
+[35m[KMap.cpp[m[K[36m[K:[m[K	  delete (static_cast<Block *> (this[01;31m[K-[m[K>object));
+[35m[KMap.cpp[m[K[36m[K:[m[K	  this[01;31m[K-[m[K>spawnBonus(x, y);
+[35m[KMap.cpp[m[K[36m[K:[m[K	  x = this[01;31m[K-[m[K>object[01;31m[K-[m[K>getX();
+[35m[KMap.cpp[m[K[36m[K:[m[K	  y = this[01;31m[K-[m[K>object[01;31m[K-[m[K>getY();
+[35m[KMap.cpp[m[K[36m[K:[m[K	  delete (static_cast<Block *> (this[01;31m[K-[m[K>object));
+[35m[KMap.cpp[m[K[36m[K:[m[K	  this[01;31m[K-[m[K>spawnBonus(x, y);
+[35m[KMap.cpp[m[K[36m[K:[m[K	  delete (static_cast<Bomb *> (this[01;31m[K-[m[K>object));
+[35m[KMap.cpp[m[K[36m[K:[m[K	  this[01;31m[K-[m[K>object = NULL;
+[35m[KMap.cpp[m[K[36m[K:[m[K	  delete (static_cast<Item *> (this[01;31m[K-[m[K>object));
+[35m[KMap.cpp[m[K[36m[K:[m[K	  this[01;31m[K-[m[K>object = NULL;
+[35m[KMap.cpp[m[K[36m[K:[m[K	  delete (static_cast<Item *> (this[01;31m[K-[m[K>object));
+[35m[KMap.cpp[m[K[36m[K:[m[K	  this[01;31m[K-[m[K>object = NULL;
+[35m[KMap.cpp[m[K[36m[K:[m[K	  delete (static_cast<Item *> (this[01;31m[K-[m[K>object));
+[35m[KMap.cpp[m[K[36m[K:[m[K	  this[01;31m[K-[m[K>object = NULL;
+[35m[KMap.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>explosion++;
+[35m[KMap.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>setDangerous(NOT_WALKABLE);
+[35m[KMap.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>explosion[01;31m[K-[m[K[01;31m[K-[m[K;
+[35m[KMap.cpp[m[K[36m[K:[m[K  if (this[01;31m[K-[m[K>explosion == 0)
+[35m[KMap.cpp[m[K[36m[K:[m[K    this[01;31m[K-[m[K>setDangerous(SAFE);
+[35m[KMap.cpp[m[K[36m[K:[m[K  return (this[01;31m[K-[m[K>explosion);
+Fichier binaire Action.o correspondant
+[35m[KAction.cpp[m[K[36m[K:[m[K  f32			fov = this[01;31m[K-[m[K>camera[01;31m[K-[m[K>getFOV();
+[35m[KAction.cpp[m[K[36m[K:[m[K  if (receiver[01;31m[K-[m[K>IsKeyDown(irr::KEY_KEY_T))
+[35m[KAction.cpp[m[K[36m[K:[m[K    this[01;31m[K-[m[K>camera[01;31m[K-[m[K>setFOV(fov + 0.001);
+[35m[KAction.cpp[m[K[36m[K:[m[K  for (std::vector<Entity *>::iterator itPlayer = this[01;31m[K-[m[K>entityList.begin();
+[35m[KAction.cpp[m[K[36m[K:[m[K       itPlayer != this[01;31m[K-[m[K>entityList.end(); ++itPlayer)
+[35m[KAction.cpp[m[K[36m[K:[m[K      if ((*itPlayer)[01;31m[K-[m[K>isAlive() == true)
+[35m[KAction.cpp[m[K[36m[K:[m[K      if ((*itPlayer)[01;31m[K-[m[K>isAlive() == true)
+[35m[KAction.cpp[m[K[36m[K:[m[K	  this[01;31m[K-[m[K>nodePosition = (*itPlayer)[01;31m[K-[m[K>getPosition();
+[35m[KAction.cpp[m[K[36m[K:[m[K	  this[01;31m[K-[m[K>nodeRotation = (*itPlayer)[01;31m[K-[m[K>getRotation();
+[35m[KAction.cpp[m[K[36m[K:[m[K	  this[01;31m[K-[m[K>originalX = (int)(nodePosition.X / BLOCK_SIZE);
+[35m[KAction.cpp[m[K[36m[K:[m[K	  this[01;31m[K-[m[K>originalY = (int)(nodePosition.Z / BLOCK_SIZE);
+[35m[KAction.cpp[m[K[36m[K:[m[K	  (*itPlayer)[01;31m[K-[m[K>getAction(direction);
+[35m[KAction.cpp[m[K[36m[K:[m[K	  (*itPlayer)[01;31m[K-[m[K>setPosition(nodePosition);
+[35m[KAction.cpp[m[K[36m[K:[m[K	  (*itPlayer)[01;31m[K-[m[K>setRotation(nodeRotation);
+[35m[KAction.cpp[m[K[36m[K:[m[K      soundManager[01;31m[K-[m[K>playMusic("music/scorepin.ogg");
+[35m[KAction.cpp[m[K[36m[K:[m[K	  (this[01;31m[K-[m[K>*(it[01;31m[K-[m[K>second))(itPlayer);
+[35m[KAction.cpp[m[K[36m[K:[m[K	  //if ((itPlayer)[01;31m[K-[m[K>getMove() != true)
+[35m[KAction.cpp[m[K[36m[K:[m[K	  //(itPlayer)[01;31m[K-[m[K>setMove(true);
+[35m[KAction.cpp[m[K[36m[K:[m[K	  //	  if ((itPlayer)[01;31m[K-[m[K>getMove() != false)
+[35m[KAction.cpp[m[K[36m[K:[m[K	    //(itPlayer)[01;31m[K-[m[K>setMove(false);
+[35m[KAction.cpp[m[K[36m[K:[m[K	(itPlayer)[01;31m[K-[m[K>run();
+[35m[KAction.cpp[m[K[36m[K:[m[K	(itPlayer)[01;31m[K-[m[K>stop();
+[35m[KAction.cpp[m[K[36m[K:[m[K  if (checkCollision(*player, frameDeltaTime, this[01;31m[K-[m[K>getCase(originalX, originalY),
+[35m[KAction.cpp[m[K[36m[K:[m[K		     this[01;31m[K-[m[K>getCase((int)((nodePosition.X ) / BLOCK_SIZE),
+[35m[KAction.cpp[m[K[36m[K:[m[K					  (player[01;31m[K-[m[K>getSpeed() * frameDeltaTime))
+[35m[KAction.cpp[m[K[36m[K:[m[K      nodePosition.Z += player[01;31m[K-[m[K>getSpeed() * frameDeltaTime;
+[35m[KAction.cpp[m[K[36m[K:[m[K  if (checkCollision(*player, frameDeltaTime, this[01;31m[K-[m[K>getCase(originalX, originalY),
+[35m[KAction.cpp[m[K[36m[K:[m[K		     this[01;31m[K-[m[K>getCase((int)((nodePosition.X ) / BLOCK_SIZE),
+[35m[KAction.cpp[m[K[36m[K:[m[K				   (int)((nodePosition.Z [01;31m[K-[m[K 3.2 [01;31m[K-[m[K
+[35m[KAction.cpp[m[K[36m[K:[m[K					  (player[01;31m[K-[m[K>getSpeed() * frameDeltaTime))
+[35m[KAction.cpp[m[K[36m[K:[m[K      nodePosition.Z [01;31m[K-[m[K= player[01;31m[K-[m[K>getSpeed() * frameDeltaTime;
+[35m[KAction.cpp[m[K[36m[K:[m[K  if (checkCollision(*player, frameDeltaTime, this[01;31m[K-[m[K>getCase(originalX, originalY),
+[35m[KAction.cpp[m[K[36m[K:[m[K		     this[01;31m[K-[m[K>getCase((int)((nodePosition.X [01;31m[K-[m[K 3.2 [01;31m[K-[m[K
+[35m[KAction.cpp[m[K[36m[K:[m[K					  (player[01;31m[K-[m[K>getSpeed() * frameDeltaTime))
+[35m[KAction.cpp[m[K[36m[K:[m[K      nodePosition.X [01;31m[K-[m[K= player[01;31m[K-[m[K>getSpeed() * frameDeltaTime;
+[35m[KAction.cpp[m[K[36m[K:[m[K  if (checkCollision(*player, frameDeltaTime, this[01;31m[K-[m[K>getCase(originalX, originalY),
+[35m[KAction.cpp[m[K[36m[K:[m[K		     this[01;31m[K-[m[K>getCase((int)((nodePosition.X + 3.2 +
+[35m[KAction.cpp[m[K[36m[K:[m[K					  (player[01;31m[K-[m[K>getSpeed() * frameDeltaTime))
+[35m[KAction.cpp[m[K[36m[K:[m[K      nodePosition.X += player[01;31m[K-[m[K>getSpeed() * frameDeltaTime;
+[35m[KAction.cpp[m[K[36m[K:[m[K  up = this[01;31m[K-[m[K>justCountUpRadius(radius, ix, iy);
+[35m[KAction.cpp[m[K[36m[K:[m[K  down = this[01;31m[K-[m[K>justCountDownRadius(radius, ix, iy);
+[35m[KAction.cpp[m[K[36m[K:[m[K  left = this[01;31m[K-[m[K>justCountLeftRadius(radius, ix, iy);
+[35m[KAction.cpp[m[K[36m[K:[m[K  right = this[01;31m[K-[m[K>justCountRightRadius(radius, ix, iy);
+[35m[KAction.cpp[m[K[36m[K:[m[K  for (i = 0; i <= up && this[01;31m[K-[m[K>map[ix][iy + i].getDangerous() != DANGEROUS || this[01;31m[K-[m[K>map[ix][iy + i].getDangerous() != NOT_WALKABLE; i++)
+[35m[KAction.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>map[ix][iy + i].setDangerous(DANGEROUS);
+[35m[KAction.cpp[m[K[36m[K:[m[K  for (i = 1; i <= down && this[01;31m[K-[m[K>map[ix][iy [01;31m[K-[m[K i].getDangerous() != DANGEROUS || this[01;31m[K-[m[K>map[ix][iy [01;31m[K-[m[K i].getDangerous() != NOT_WALKABLE; i++)
+[35m[KAction.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>map[ix][iy [01;31m[K-[m[K i].setDangerous(DANGEROUS);
+[35m[KAction.cpp[m[K[36m[K:[m[K  for (i = 1; i <= left && this[01;31m[K-[m[K>map[ix [01;31m[K-[m[K i][iy].getDangerous() != DANGEROUS || this[01;31m[K-[m[K>map[ix [01;31m[K-[m[K i][iy].getDangerous() != NOT_WALKABLE; i++)
+[35m[KAction.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>map[ix [01;31m[K-[m[K i][iy].setDangerous(DANGEROUS);
+[35m[KAction.cpp[m[K[36m[K:[m[K  for (i = 1; i <= right && this[01;31m[K-[m[K>map[ix + i][iy].getDangerous() != DANGEROUS || this[01;31m[K-[m[K>map[ix + i][iy].getDangerous() != NOT_WALKABLE; i++)
+[35m[KAction.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>map[ix + i][iy].setDangerous(DANGEROUS);
+[35m[KAction.cpp[m[K[36m[K:[m[K  for (std::list<vector2di>::iterator itBomb = this[01;31m[K-[m[K>bombCoorList.begin(); itBomb != this[01;31m[K-[m[K>bombCoorList.end(); ++itBomb)
+[35m[KAction.cpp[m[K[36m[K:[m[K      bomb = static_cast<Bomb *> (this[01;31m[K-[m[K>getCase(itBomb[01;31m[K-[m[K>X, itBomb[01;31m[K-[m[K>Y).getObject());
+[35m[KAction.cpp[m[K[36m[K:[m[K      setDangerousZone(itBomb[01;31m[K-[m[K>X, itBomb[01;31m[K-[m[K>Y);
+[35m[KAction.cpp[m[K[36m[K:[m[K      if ((bomb[01;31m[K-[m[K>hasExploded() == false && device[01;31m[K-[m[K>getTimer()[01;31m[K-[m[K>getTime() [01;31m[K-[m[K bomb[01;31m[K-[m[K>getTime() > 2000) || (bomb[01;31m[K-[m[K>hasExploded() == false && map[itBomb[01;31m[K-[m[K>X][itBomb[01;31m[K-[m[K>Y].getExplosion() > 0))
+[35m[KAction.cpp[m[K[36m[K:[m[K	  this[01;31m[K-[m[K>soundManager[01;31m[K-[m[K>playSound(SoundManager::BombExplosion_medium);
+[35m[KAction.cpp[m[K[36m[K:[m[K	  launchExplosion(bomb, itBomb[01;31m[K-[m[K>X, itBomb[01;31m[K-[m[K>Y);
+[35m[KAction.cpp[m[K[36m[K:[m[K      if (device[01;31m[K-[m[K>getTimer()[01;31m[K-[m[K>getTime() [01;31m[K-[m[K bomb[01;31m[K-[m[K>getTime() > 3000)
+[35m[KAction.cpp[m[K[36m[K:[m[K	  this[01;31m[K-[m[K>entityList[bomb[01;31m[K-[m[K>getEntityNbr()][01;31m[K-[m[K>removeBombCount();
+[35m[KAction.cpp[m[K[36m[K:[m[K	  for (std::list<vector2di>::const_iterator itExplosion = bomb[01;31m[K-[m[K>getExplosionList().begin(); itExplosion != bomb[01;31m[K-[m[K>getExplosionList().end(); itExplosion++)
+[35m[KAction.cpp[m[K[36m[K:[m[K	      this[01;31m[K-[m[K>map[itExplosion[01;31m[K-[m[K>X][itExplosion[01;31m[K-[m[K>Y].removeExplosion();
+[35m[KAction.cpp[m[K[36m[K:[m[K	  this[01;31m[K-[m[K>getCase(itBomb[01;31m[K-[m[K>X, itBomb[01;31m[K-[m[K>Y).destroy();
+[35m[KAction.cpp[m[K[36m[K:[m[K	  itBomb = this[01;31m[K-[m[K>bombCoorList.erase(itBomb);
+[35m[KAction.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>nodePosition = it[01;31m[K-[m[K>getPosition();
+[35m[KAction.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>originalX = (int)(nodePosition.X / BLOCK_SIZE);
+[35m[KAction.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>originalY = (int)(nodePosition.Z / BLOCK_SIZE);
+[35m[KAction.cpp[m[K[36m[K:[m[K  if (map[this[01;31m[K-[m[K>originalX][this[01;31m[K-[m[K>originalY].getExplosion() > 0)
+[35m[KAction.cpp[m[K[36m[K:[m[K      it[01;31m[K-[m[K>kill();
+[35m[KAction.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>soundManager[01;31m[K-[m[K>playSound(SoundManager::Death);
+[35m[KAction.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>nodePosition = it[01;31m[K-[m[K>getPosition();
+[35m[KAction.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>originalX = (int)(nodePosition.X / BLOCK_SIZE);
+[35m[KAction.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>originalY = (int)(nodePosition.Z / BLOCK_SIZE);
+[35m[KAction.cpp[m[K[36m[K:[m[K  switch(map[this[01;31m[K-[m[K>originalX][this[01;31m[K-[m[K>originalY].getBlockType())
+[35m[KAction.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>soundManager[01;31m[K-[m[K>playSound(SoundManager::GetItem);
+[35m[KAction.cpp[m[K[36m[K:[m[K      map[this[01;31m[K-[m[K>originalX][this[01;31m[K-[m[K>originalY].destroy();
+[35m[KAction.cpp[m[K[36m[K:[m[K      map[this[01;31m[K-[m[K>originalX][this[01;31m[K-[m[K>originalY].setDangerous(SAFE);
+[35m[KAction.cpp[m[K[36m[K:[m[K      it[01;31m[K-[m[K>addSpeed(3);
+[35m[KAction.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>soundManager[01;31m[K-[m[K>playSound(SoundManager::GetItem);
+[35m[KAction.cpp[m[K[36m[K:[m[K      map[this[01;31m[K-[m[K>originalX][this[01;31m[K-[m[K>originalY].destroy();
+[35m[KAction.cpp[m[K[36m[K:[m[K      map[this[01;31m[K-[m[K>originalX][this[01;31m[K-[m[K>originalY].setDangerous(SAFE);
+[35m[KAction.cpp[m[K[36m[K:[m[K      it[01;31m[K-[m[K>addBombNumber();
+[35m[KAction.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>soundManager[01;31m[K-[m[K>playSound(SoundManager::GetItem);
+[35m[KAction.cpp[m[K[36m[K:[m[K      map[this[01;31m[K-[m[K>originalX][this[01;31m[K-[m[K>originalY].destroy();
+[35m[KAction.cpp[m[K[36m[K:[m[K      map[this[01;31m[K-[m[K>originalX][this[01;31m[K-[m[K>originalY].setDangerous(SAFE);
+[35m[KAction.cpp[m[K[36m[K:[m[K      it[01;31m[K-[m[K>addBombRadius();
+[35m[KAction.cpp[m[K[36m[K:[m[K  if (this[01;31m[K-[m[K>getCase(originalX, originalY).getBlockType() == BlockType::EMPTY &&
+[35m[KAction.cpp[m[K[36m[K:[m[K      itEntity[01;31m[K-[m[K>canPutBomb())
+[35m[KAction.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>getCase(originalX, originalY).setObject(
+[35m[KAction.cpp[m[K[36m[K:[m[K						    new Bomb(originalX, originalY, this[01;31m[K-[m[K>texturePack, this[01;31m[K-[m[K>meshPack, this[01;31m[K-[m[K>smgr, this[01;31m[K-[m[K>effect, itEntity[01;31m[K-[m[K>getID(), this[01;31m[K-[m[K>device[01;31m[K-[m[K>getTimer()[01;31m[K-[m[K>getTime(), itEntity[01;31m[K-[m[K>getBombRadius()));
+[35m[KAction.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>addBombCoor(originalX, originalY);
+[35m[KAction.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>soundManager[01;31m[K-[m[K>playSound(SoundManager::SetBomb);
+[35m[KAction.cpp[m[K[36m[K:[m[K      itEntity[01;31m[K-[m[K>addBombCount();
+[35m[KBot.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>ai = new AI(_map, _entityList, this);
+[35m[KBot.cpp[m[K[36m[K:[m[K  if (((float)(clock() [01;31m[K-[m[K timer) / CLOCKS_PER_SEC) > 0.5)
+[35m[KBot.cpp[m[K[36m[K:[m[K      action[i++] = ai[01;31m[K-[m[K>Play();
+[35m[KBot.cpp[m[K[36m[K:[m[K	action[i++] = action[i [01;31m[K-[m[K 1];
+[35m[KGame.cpp[m[K[36m[K:[m[K// #define NEWPOS(x, y) (this[01;31m[K-[m[K>getCase((int)(NEWPOSX(x), NEWPOSY(y))))
+[35m[KGame.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>_name = ("AAA");
+[35m[KGame.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>_alphabet = ("ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789");
+[35m[KGame.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>_index[0] = 0;
+[35m[KGame.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>_index[1] = 0;
+[35m[KGame.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>_index[2] = 0;
+[35m[KGame.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>_letter = 0;
+[35m[KGame.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>_displayScoreName = (L"");
+[35m[KGame.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>_finalScoreName = _displayScoreName.c_str();
+[35m[KGame.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>_temp = "\0";
+[35m[KGame.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>_name[0] = this[01;31m[K-[m[K>_alphabet[_index[0]];
+[35m[KGame.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>_name[1] = this[01;31m[K-[m[K>_alphabet[_index[1]];
+[35m[KGame.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>_name[2] = this[01;31m[K-[m[K>_alphabet[_index[2]];
+[35m[KGame.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>meshList[BlockType::EMPTY] = "media/fire_item.3ds";
+[35m[KGame.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>meshList[BlockType::SOCLE] = "media/goldensocle.3ds";
+[35m[KGame.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>meshList[BlockType::BOMB] = "media/bomb.obj";
+[35m[KGame.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>meshList[BlockType::BOMB_ITEM] = "media/bomb.obj";
+[35m[KGame.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>meshList[BlockType::SPEED_ITEM] = "media/speed_item.obj";
+[35m[KGame.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>meshList[BlockType::RADIUS_ITEM] = "media/fire_item.3ds";
+[35m[KGame.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>meshList[BlockType::BOMBERMAN] = "media/BombyStatic.b3d";
+[35m[KGame.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>textureList[BlockType::TGRID] = "media/grid.png";
+[35m[KGame.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>textureList[BlockType::THARD] = "media/hardblock.png";
+[35m[KGame.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>textureList[BlockType::TEND] = "media/endblock2.png";
+[35m[KGame.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>textureList[BlockType::TLIGHT] = "media/lightblock5.png";
+[35m[KGame.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>textureList[BlockType::TPARTICULE1] = "media/explosion00.png";
+[35m[KGame.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>textureList[BlockType::TPARTICULE2] = "media/fireball.bmp";
+[35m[KGame.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>animatedmeshList[BlockType::PLAYER] = "media/bomberman_anim4.b3d";
+[35m[KGame.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>actionPtr[Action::ACTION] = &Game::putBomb;
+[35m[KGame.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>actionPtr[Action::UP] = &Game::goUp;
+[35m[KGame.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>actionPtr[Action::DOWN] = &Game::goDown;
+[35m[KGame.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>actionPtr[Action::LEFT] = &Game::goLeft;
+[35m[KGame.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>actionPtr[Action::RIGHT] = &Game::goRight;
+[35m[KGame.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>playerNb = 4;
+[35m[KGame.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>device = device;
+[35m[KGame.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>effect = NULL;
+[35m[KGame.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>soundManager = soundManager;
+[35m[KGame.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>gameState = Game::MENU;
+[35m[KGame.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>loadTexture();
+[35m[KGame.cpp[m[K[36m[K:[m[K  return (this[01;31m[K-[m[K>map);
+[35m[KGame.cpp[m[K[36m[K:[m[K  len = this[01;31m[K-[m[K>map.size();
+[35m[KGame.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>map[i].clear();
+[35m[KGame.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>map.clear();
+[35m[KGame.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>playerList.clear();
+[35m[KGame.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>entityList.clear();
+[35m[KGame.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>smgr[01;31m[K-[m[K>clear();
+[35m[KGame.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>map = mymap;
+[35m[KGame.cpp[m[K[36m[K:[m[K  return (this[01;31m[K-[m[K>length);
+[35m[KGame.cpp[m[K[36m[K:[m[K  return (this[01;31m[K-[m[K>width);
+[35m[KGame.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>length = len;
+[35m[KGame.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>width = wid;
+[35m[KGame.cpp[m[K[36m[K:[m[K  return (this[01;31m[K-[m[K>camera);
+[35m[KGame.cpp[m[K[36m[K:[m[K  return (*this[01;31m[K-[m[K>entityList[nb]);
+[35m[KGame.cpp[m[K[36m[K:[m[K  return (this[01;31m[K-[m[K>map[x][y]);
+[35m[KGame.cpp[m[K[36m[K:[m[K      if (meshPack[01;31m[K-[m[K>addMesh(it[01;31m[K-[m[K>first, it[01;31m[K-[m[K>second) == false)
+[35m[KGame.cpp[m[K[36m[K:[m[K      if (meshPack[01;31m[K-[m[K>addMesh(it[01;31m[K-[m[K>first, it[01;31m[K-[m[K>second) == false)
+[35m[KGame.cpp[m[K[36m[K:[m[K      if (texturePack[01;31m[K-[m[K>addTexture(it[01;31m[K-[m[K>first, it[01;31m[K-[m[K>second) == false)
+[35m[KGame.cpp[m[K[36m[K:[m[K  for(incY = [01;31m[K-[m[K1; [01;31m[K-[m[KincY <= radius; incY[01;31m[K-[m[K[01;31m[K-[m[K)
+[35m[KGame.cpp[m[K[36m[K:[m[K  for(incX = [01;31m[K-[m[K1; [01;31m[K-[m[KincX <= radius; incX[01;31m[K-[m[K[01;31m[K-[m[K)
+[35m[KGame.cpp[m[K[36m[K:[m[K  for(incY = [01;31m[K-[m[K1; [01;31m[K-[m[KincY <= radius; incY[01;31m[K-[m[K[01;31m[K-[m[K)
+[35m[KGame.cpp[m[K[36m[K:[m[K  for(incX = [01;31m[K-[m[K1; [01;31m[K-[m[KincX <= radius; incX[01;31m[K-[m[K[01;31m[K-[m[K)
+[35m[KGame.cpp[m[K[36m[K:[m[K  radius  = bomb[01;31m[K-[m[K>getBombRadius();
+[35m[KGame.cpp[m[K[36m[K:[m[K  up = this[01;31m[K-[m[K>countUpRadius(radius, x, y);
+[35m[KGame.cpp[m[K[36m[K:[m[K  down = this[01;31m[K-[m[K>countDownRadius(radius, x, y);
+[35m[KGame.cpp[m[K[36m[K:[m[K  left = this[01;31m[K-[m[K>countLeftRadius(radius, x, y);
+[35m[KGame.cpp[m[K[36m[K:[m[K  right = this[01;31m[K-[m[K>countRightRadius(radius, x, y);
+[35m[KGame.cpp[m[K[36m[K:[m[K  bomb[01;31m[K-[m[K>explode(up, down, left, right);
+[35m[KGame.cpp[m[K[36m[K:[m[K      bomb[01;31m[K-[m[K>addExplosionCase(vector2di(x, y + i));
+[35m[KGame.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>map[x][y + i].addExplosion();
+[35m[KGame.cpp[m[K[36m[K:[m[K      bomb[01;31m[K-[m[K>addExplosionCase(vector2di(x, y [01;31m[K-[m[K i));
+[35m[KGame.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>map[x][y [01;31m[K-[m[K i].addExplosion();
+[35m[KGame.cpp[m[K[36m[K:[m[K      bomb[01;31m[K-[m[K>addExplosionCase(vector2di(x [01;31m[K-[m[K i, y));
+[35m[KGame.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>map[x [01;31m[K-[m[K i][y].addExplosion();
+[35m[KGame.cpp[m[K[36m[K:[m[K      bomb[01;31m[K-[m[K>addExplosionCase(vector2di(x + i, y));
+[35m[KGame.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>map[x + i][y].addExplosion();
+[35m[KGame.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>bombCoorList.push_back(vector2di(x, y));
+[35m[KGame.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>bombCoorList.remove(vector2di(x, y));
+[35m[KGame.cpp[m[K[36m[K:[m[K  return (this[01;31m[K-[m[K>device);
+[35m[KGame.cpp[m[K[36m[K:[m[K  return (this[01;31m[K-[m[K>gameState);
+[35m[KGame.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>gameState = gameState;
+[35m[KEntity.cpp[m[K[36m[K:[m[K      textureBomberman = video[01;31m[K-[m[K>getTexture(textureName.str().c_str());
+[35m[KEntity.cpp[m[K[36m[K:[m[K      openError(file, this[01;31m[K-[m[K>effect[01;31m[K-[m[K>getIrrlichtDevice());
+[35m[KEntity.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>model = smgr[01;31m[K-[m[K>addAnimatedMeshSceneNode(mesh[01;31m[K-[m[K>getMesh(BlockType::PLAYER));
+[35m[KEntity.cpp[m[K[36m[K:[m[K  if (this[01;31m[K-[m[K>model)
+[35m[KEntity.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>model[01;31m[K-[m[K>setPosition(vector3df((float)(pos.X * BLOCK_SIZE + BLOCK_SIZE / 2),
+[35m[KEntity.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>model[01;31m[K-[m[K>setMaterialFlag(irr::video::EMF_LIGHTING, false);
+[35m[KEntity.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>model[01;31m[K-[m[K>setFrameLoop(0, 32);
+[35m[KEntity.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>model[01;31m[K-[m[K>setAnimationSpeed(42);
+[35m[KEntity.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>model[01;31m[K-[m[K>setMaterialTexture(0, textureBomberman);
+[35m[KEntity.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>model[01;31m[K-[m[K>setScale(vector3df(8, 8, 8));
+[35m[KEntity.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>model[01;31m[K-[m[K>setVisible(false);
+[35m[KEntity.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>staticModel = smgr[01;31m[K-[m[K>addMeshSceneNode(mesh[01;31m[K-[m[K>getMesh(BlockType::BOMBERMAN));
+[35m[KEntity.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>staticModel[01;31m[K-[m[K>setPosition(vector3df((float)(pos.X * BLOCK_SIZE + BLOCK_SIZE / 2),
+[35m[KEntity.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>staticModel[01;31m[K-[m[K>setMaterialFlag(irr::video::EMF_LIGHTING, false);
+[35m[KEntity.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>staticModel[01;31m[K-[m[K>setMaterialTexture(0, textureBomberman);
+[35m[KEntity.cpp[m[K[36m[K:[m[K      // this[01;31m[K-[m[K>staticModel[01;31m[K-[m[K>setFrameLoop(33, 34);
+[35m[KEntity.cpp[m[K[36m[K:[m[K      // this[01;31m[K-[m[K>staticModel[01;31m[K-[m[K>setAnimationSpeed(0);
+[35m[KEntity.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>staticModel[01;31m[K-[m[K>setScale(vector3df(8, 8, 8));
+[35m[KEntity.cpp[m[K[36m[K:[m[K      //this[01;31m[K-[m[K>effect[01;31m[K-[m[K>addShadowToNode(this[01;31m[K-[m[K>staticModel, EFT_16PCF, ESM_CAST);
+[35m[KEntity.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>staticModel[01;31m[K-[m[K>setVisible(true);
+[35m[KEntity.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>alive = true;
+[35m[KEntity.cpp[m[K[36m[K:[m[K  return (this[01;31m[K-[m[K>model[01;31m[K-[m[K>getPosition());
+[35m[KEntity.cpp[m[K[36m[K:[m[K  return (this[01;31m[K-[m[K>model[01;31m[K-[m[K>getRotation());
+[35m[KEntity.cpp[m[K[36m[K:[m[K  return (this[01;31m[K-[m[K>model[01;31m[K-[m[K>getPosition().X);
+[35m[KEntity.cpp[m[K[36m[K:[m[K  return (this[01;31m[K-[m[K>model[01;31m[K-[m[K>getPosition().Z);
+[35m[KEntity.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>model[01;31m[K-[m[K>setPosition(newpos);
+[35m[KEntity.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>staticModel[01;31m[K-[m[K>setPosition(newpos);
+[35m[KEntity.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>model[01;31m[K-[m[K>setRotation(newpos);
+[35m[KEntity.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>staticModel[01;31m[K-[m[K>setRotation(newpos);
+[35m[KEntity.cpp[m[K[36m[K:[m[K  return (this[01;31m[K-[m[K>size);
+[35m[KEntity.cpp[m[K[36m[K:[m[K  if (this[01;31m[K-[m[K>bombCount < this[01;31m[K-[m[K>bombNumber)
+[35m[KEntity.cpp[m[K[36m[K:[m[K  if (this[01;31m[K-[m[K>model[01;31m[K-[m[K>isVisible() == false)
+[35m[KEntity.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>model[01;31m[K-[m[K>setVisible(true);
+[35m[KEntity.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>effect[01;31m[K-[m[K>addShadowToNode(this[01;31m[K-[m[K>model, EFT_16PCF, ESM_CAST);
+[35m[KEntity.cpp[m[K[36m[K:[m[K  if (this[01;31m[K-[m[K>staticModel[01;31m[K-[m[K>isVisible() == true)
+[35m[KEntity.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>staticModel[01;31m[K-[m[K>setVisible(false);
+[35m[KEntity.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>effect[01;31m[K-[m[K>removeShadowFromNode(this[01;31m[K-[m[K>staticModel);
+[35m[KEntity.cpp[m[K[36m[K:[m[K    if (this[01;31m[K-[m[K>staticModel[01;31m[K-[m[K>isVisible() == false)
+[35m[KEntity.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>staticModel[01;31m[K-[m[K>setVisible(true);
+[35m[KEntity.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>effect[01;31m[K-[m[K>addShadowToNode(this[01;31m[K-[m[K>staticModel, EFT_16PCF, ESM_CAST);
+[35m[KEntity.cpp[m[K[36m[K:[m[K  if (this[01;31m[K-[m[K>model[01;31m[K-[m[K>isVisible() == true)
+[35m[KEntity.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>effect[01;31m[K-[m[K>removeShadowFromNode(this[01;31m[K-[m[K>model);
+[35m[KEntity.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>model[01;31m[K-[m[K>setVisible(false);
+[35m[KEntity.cpp[m[K[36m[K:[m[K  if (begin != this[01;31m[K-[m[K>model[01;31m[K-[m[K>getStartFrame() && end != this[01;31m[K-[m[K>model[01;31m[K-[m[K>getEndFrame())
+[35m[KEntity.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>model[01;31m[K-[m[K>setFrameLoop(begin, end);
+[35m[KEntity.cpp[m[K[36m[K:[m[K      if (begin [01;31m[K-[m[K end == 0)
+[35m[KEntity.cpp[m[K[36m[K:[m[K	this[01;31m[K-[m[K>model[01;31m[K-[m[K>setAnimationSpeed(0);
+[35m[KEntity.cpp[m[K[36m[K:[m[K      else if ((int)(this[01;31m[K-[m[K>model[01;31m[K-[m[K>getAnimationSpeed()) != 42)
+[35m[KEntity.cpp[m[K[36m[K:[m[K	this[01;31m[K-[m[K>model[01;31m[K-[m[K>setAnimationSpeed(42);
+[35m[KEntity.cpp[m[K[36m[K:[m[K  return (this[01;31m[K-[m[K>alive);
+[35m[KEntity.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>alive = false;
+[35m[KEntity.cpp[m[K[36m[K:[m[K  if (this[01;31m[K-[m[K>model != NULL)
+[35m[KEntity.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>effect[01;31m[K-[m[K>removeShadowFromNode(this[01;31m[K-[m[K>model);
+[35m[KEntity.cpp[m[K[36m[K:[m[K      this[01;31m[K-[m[K>model[01;31m[K-[m[K>remove();
+[35m[KEntity.cpp[m[K[36m[K:[m[K  return (this[01;31m[K-[m[K>type);
+[35m[KEntity.cpp[m[K[36m[K:[m[K  return (this[01;31m[K-[m[K>id);
+[35m[KEntity.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>bombCount++;
+[35m[KEntity.cpp[m[K[36m[K:[m[K  this[01;31m[K-[m[K>bombCount[01;31m[K-[m[K[01;31m[K-[m[K;
+[35m[KEntity.cpp[m[K[36m[K:[m[K  return (this[01;31m[K-[m[K>bombNumber);
+[35m[KEntity.cpp[m[K[36m[K:[m[K  return (this[01;31m[K-[m[K>bombRadius);
+[35m[KEntity.cpp[m[K[36m[K:[m[K  return (this[01;31m[K-[m[K>speed);
