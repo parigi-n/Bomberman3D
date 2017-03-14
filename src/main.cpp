@@ -19,7 +19,6 @@
 
 int main()
 {
-
   Config conf;
 
   // Init irrlicht
