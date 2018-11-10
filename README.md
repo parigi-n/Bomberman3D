@@ -10,7 +10,7 @@ Authors :
 - David SEBAOUN https://github.com/david-sebaoun for the build system and AI
 - Martin PELLEMOINE https://github.com/pellem for the animation of the 3d model and the winning screen/leaderboard
 - Hubert WROBLEWSKI https://github.com/huski1017 for all the menu : the front part and the back part.
-- Jules VAUTIER for the map generation, AI action module and some parts of the gameplay.
+- Jules VAUTIER https://github.com/JulesVautier for the map generation, AI action module and some parts of the gameplay.
 - Oscar, for ... well i don't know
 
 The code is sometime messy for 3 reasons :
